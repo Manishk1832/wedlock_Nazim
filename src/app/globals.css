@@ -1,0 +1,34 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('/font.css');
+
+
+
+
+
+body{
+ font-family: 'Proxima-Nova-Semibold',sans-serif ;
+}
+
+/* .bg-dark-blue {
+  background-color: #1a202c;
+} */
+
+/* .bg-light-blue {
+  background-color: #3b82f6; 
+} */
+
+
+@media (max-width: 668px) {
+  .overlay {
+    background-color: black !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: -1 !important;
+  }
+}
