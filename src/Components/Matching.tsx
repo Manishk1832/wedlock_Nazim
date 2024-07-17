@@ -7,28 +7,28 @@ import { IoMdArrowForward } from "react-icons/io";
 import '../app/font.css';
 const Matching = () => {
   return (
-    <div className="bg-[#DCD1E8] px-6  py-6 relative w-100 sm:pb-20">
+    <div className="bg-[#e0ccf6]  px-6 pt-12  relative w-100 sm:pb-16 pb-12 sm:py-16 3xl:px-28">
      
      
-      <div className="bg-[url('/shadow.png')] -rotate-342 absolute w-[80rem] h-[100%]  top-0 right-0 "></div>
+      <div className="bg-[url('/shadow.png')] -rotate-342 absolute w-[80rem] h-[100%]  top-0 right-0  hidden sm:block"></div>
       <Image
     src="/curve.png"
     alt="arw"
     width={100}
     height={100}
-    className="absolute w-[50%] left-[50%]"
+    className="absolute w-[50%] left-[50%] "
   />
 
 
 
-      <div className="text-[#4E3A63] py-10  sm:px-20 z-10 container w-100 ">
-        <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold z-10 sm:text-5xl text-[#4E3A63]" style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', lineHeight: '89.5px' }}>Exclusive matchmaking</h1>
-        <p className="text-[16px] sm:text-[28px]">
+      <div className="text-[#4E3A63]   sm:px-20 z-20 container w-100 3xl:px-28">
+        <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold  sm:text-5xl text-[#4E3A63] leading-none sm:leading-[89.5px] " style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif' }}>Exclusive matchmaking</h1>
+        <p className="text-[16px] sm:text-[28px] pt-10">
           Cras at pellentesque eros. Nullam vitae sapienet felis eleifend
           luctus. Nam ac dui
         </p>
       </div>
-      <div className="md:flex container m-auto justify-between items-center  sm:w-[87%] w-100 gap-40   bg-[#8E69B4] rounded-3xl px-10 py-5 opacity-95	">
+      <div className="md:flex container m-auto  mt-6  justify-between items-center  sm:w-[87%] w-100 gap-40   bg-[#8E69B4] rounded-3xl px-6 sm:px-10 py-5 opacity-95	sm:mt-12">
       <div className="relative w-full h-full flex justify-center items-center">
         <Image
           src="/matching.svg"
@@ -39,7 +39,7 @@ const Matching = () => {
         />
       </div>
         <div className="space-y-5">
-          <p className="w-[100%] text-white">
+          <p className="w-[100%] text-white pt-6 sm:pt-0 text-[12px] sm:text-[16px]">
             Aenean interdum arcu sit amet nulla lacinia <br /> suscipit. Vivamus at
             laoreet mi. Fusce pulvinar commodo
           </p>

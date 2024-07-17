@@ -7,13 +7,13 @@ function Pre() {
   return (
     
 
-    <div className='w-100 h-auto bg-[#E6F2F7] sm:pb-12'>
+    <div className='w-100 h-auto bg-[#E6F2F7] sm:pb-12 pb-10 3xl:px-48'>
 
-<div className=' space-y-10 bg-[#E6F2F7] relative overflow-hidden px-5 sm:px-20 py-10 container m-auto'>
+<div className=' space-y-10 bg-[#E6F2F7] relative overflow-hidden px-5 sm:px-20 py-4 container m-auto'>
         <img src="/Vector.png" alt='arw' className='absolute  w-[38rem] -right-4 -top-40'/>
         <div className='space-y-7'>
             <h1 className='text-[#007EAF] text-3xl text-left md:text-3xl xl:text-6xl ' style={{fontFamily: 'Proxima-Nova-Bold, sans-serif'}}>The premier matrimony application </h1>
-            <p className='text-[#475467] text-[28px] text-left' style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight:'42px'}}>With over two decades of reliable matchmaking experience, supported by a <br /> committed Trust and Safety team at your service.
+            <p className='text-[#475467]  sm:text-[28px] text-left sm:leading-[42px]' style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>With over two decades of reliable matchmaking experience, supported by a <br /> committed Trust and Safety team at your service.
             </p>
         </div>
         <div className='grid grid-cols-1 xl:grid-cols-3 gap-10 '>
@@ -23,7 +23,7 @@ function Pre() {
 
                 </div>
                 <h1 className='text-xl text-[#00597C]' style={{fontFamily: 'Proxima-Nova-Bold, sans-serif'}}>100% Privacy</h1>
-                <p className='text-[#00739F] text-xl text-center 'style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.</p>
+                <p className='text-[#00739F] text-xl  text-center 'style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.</p>
             </div>
             <div className=' flex flex-col items-center gap-3 p-5 rounded-3xl bg-[#B0D7E680]'>
                 <div className='bg-[#2D95BD] rounded-full w-20 h-20 flex items-center justify-center'>

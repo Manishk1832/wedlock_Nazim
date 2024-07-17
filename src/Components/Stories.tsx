@@ -25,7 +25,7 @@ const Stories = () => {
 
   return (
     
-    <div className="w-full h-auto  bg-[#007EAF] pb-20" >
+    <div className="w-full h-auto  bg-[#007EAF] pb-10 sm:pb-[80px] 3xl:px-48" >
 
 
       
@@ -44,14 +44,14 @@ const Stories = () => {
             <IoArrowForward className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={nextSlide} />
           </div>
         </div>
-        <p className="sm:w-[60%] w-full " style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',fontSize:'28px',lineHeight: '32px sm:42px lg:42px' }}>
+        <p className="sm:w-[60%] w-full sm:text-[28px]" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',lineHeight: '32px sm:42px lg:42px' }}>
           Dive into stories of unexpected friendships, love that blossoms in the most extraordinary places, and dreams that come true against all odds.
         </p>
       </div>
       <div className="flex items-center justify-between flex-col sm:flex-row gap-7 ">
         {stories.map((story, index) => (
           <div key={index} className={` relative ${index == currentSlide ? 'block' : '' }`}>
-            <img src={story.src} alt={`Story ${story.index}`} className="rounded-3xl w-[50rem]  h-[26rem] object-cover z-2 " />
+            <img src={story.src} alt={`Story ${story.index}`} className="rounded-3xl w-[50rem]  h-[26rem] object-cover z-2 3xl:h-[30%]" />
           </div>
         ))}
       </div>

@@ -27,13 +27,13 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className={`absolute z-10 w-full   h-auto text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ''}`}>
+      <div className={`absolute z-10 w-full h-auto 3xl:px-32 text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ''}`}>
 
 
 
         <div className={`${isBlueBgRoute ? 'hidden' : 'h-2 xl:h-6 w-full z-10 bg-black xl:blur-[18px] blur-[40px]'}`}></div>
 
-        <div className="flex justify-between items-center  container w-full  m-auto">
+        <div className="flex justify-around items-center  container w-full  m-auto">
 
         <div className="flex px-3 xl:px-16 items-center justify-between  w-full">
           <div className='text-white '>
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
             <RiCloseLine />
           </button>
         </div>
-        <nav className="flex flex-col p-4">
+        <nav className="flex flex-col p-4 ">
           <Link href="/mission" className="py-2 text-white" onClick={toggleSidebar}>Mission</Link>
           <Link href="/advice" className="py-2 text-white" onClick={toggleSidebar}>Advice</Link>
           <Link href="/help" className="py-2 text-white" onClick={toggleSidebar}>Help</Link>

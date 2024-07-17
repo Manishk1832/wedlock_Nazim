@@ -8,31 +8,31 @@ const GetApp = () => {
   return (
     
     
-    <div className="w-100 h-auto bg-[#007EAF]">
+    <div className="w-100 h-auto bg-[#007EAF] py-5 pb-12 sm:py-0 sm:pb-0 3xl:px-36">
 
 <div className=" text-white  overflow-hidden container m-auto">
       <div className="flex flex-col lg:flex-row justify-between lg:justify-between flex-wrap">
-        <div className="bg-container flex flex-col lg:flex-row justify-between w-full px-6 md:px-16 py-8 md:py-12">
+        <div className="bg-container flex flex-col lg:flex-row justify-between w-full px-6 md:px-16  md:py-12">
           <div className="">
-            <div className=" mt-4 ">
-              <h1 className="text-[3rem]  sm:text-5xl md:text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
-              <p className=" sm:text-[28px] pt-5 font-normal" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
+            <div className="  3xl:pt-12">
+              <h1 className="text-[2rem]  sm:text-5xl md:text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
+              <p className=" sm:text-[28px] pt-5 font-normal text-[14px] text-start" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
                 Lorem ipsum dolor sit amet consectetur. <br /> Dui mauris dictum ultrices rutrum nec arcu <br />vel. Viverra egestas vitae aenean placerat <br />faucibus pharetra.
               </p>
             </div>
             <div className="flex flex-row    lg:space-x-5 space-y-1  sm:space-y-0 gap-2 mt-16" >
               <button className="rounded-2xl bg-[#FFFFFF] border-2 border-[#0000004D] text-black text-lg p-3 cursor-pointer h-auto">
                 <div className="flex items-center gap-4 ">
-                  <FaApple className="text-1xl sm:text-4xl md:text-5xl" />
+                  <FaApple className="text-4xl sm:text-4xl md:text-5xl" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm font-bold" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
-                    <p className="text-[1.2rem] font-bold">Apple Store</p>
+                    <p className="text-[1.2rem] sm:text-[1.2rem] font-bold ">Apple Store</p>
                   </div>
                 </div>
               </button> 
               <button className="rounded-2xl bg-[#FFFFFF] border-2 border-[#0000004D] text-black text-lg p-3 px-5  h-auto">
                 <div className="flex items-center gap-2">
-                  <FaGooglePlay className="text-1xl sm:text-4xl md:text-5xl text-[#231F20E5]" />
+                  <FaGooglePlay className="text-4xl sm:text-4xl md:text-5xl text-[#231F20E5]" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
                     <p className=" text-[1.2rem] sm:text-0 font-medium">Google Store</p>
@@ -45,7 +45,7 @@ const GetApp = () => {
           <div className="mt-8 lg:mt-0 relative flex justify-center lg:justify-end w-full lg:w-1/2">
           <div className="  w-[100%] h-[100%] p-0 m-0">
             <Image src="/qr.svg" width={200} height={200} alt="QR code" className="absolute w-[80%] sm:w-[90%] p-0 h-[100%] m-0 sm:right-48 z-20" />
-            <Image src="/ph.svg" width={150} height={300} alt="Phone" className="w-[90%] sm:w-[90%] p-0 h-[100%] m-0 relative  " />
+            <Image src="/ph.svg" width={150} height={300} alt="Phone" className="w-[80%] sm:w-[90%] p-0 h-[100%] m-0 relative  left-14 sm:left-2" />
           </div>
           </div>
 

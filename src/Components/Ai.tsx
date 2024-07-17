@@ -4,7 +4,7 @@ import React from "react";
 const Ai = () => {
   return (
    
-   <div className="w-100 h-auto bg-[#009BDA]">
+   <div className="w-100 h-auto bg-[#009BDA] 3xl:px-52">
 
 <div className="relative container m-auto">
       <img

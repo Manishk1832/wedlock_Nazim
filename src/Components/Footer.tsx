@@ -29,9 +29,9 @@ const Footer = () => {
 
   return (
    
-<div className="w-100 h-auto bg-[#2A2A2A]">
+<div className="w-100 h-auto bg-[#2A2A2A] 3xl:px-56">
 
-<div className="px-6 sm:px-14  text-white space-y-8 sm:py-16 py-10 container m-auto sm:font-normal">
+<div className="px-6 sm:px-14  text-white space-y-8 sm:py-16 py-10 container m-auto sm:font-normal ">
       <div className="md:flex gap-10 space-y-8">
         <div className="md:w-2/4 space-y-5">
           <div className="flex items-center">
@@ -97,7 +97,7 @@ const Footer = () => {
             dating website.
           </p>
         </div>
-        <h1 className="mt-2 text-balance text-[16px]  py-5 " style={{letterSpacing: '3%' , lineHeight:'22px'}} >© 2024 Wedlock Australia. All rights reserved.</h1>
+        <h1 className="mt-2 sm:text-[16px]   py-5  " style={{letterSpacing: '3%' , lineHeight:'22px'}} >© 2024 Wedlock Australia. All rights reserved.</h1>
        
       </div>
     </div>

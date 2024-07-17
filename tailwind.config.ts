@@ -11,6 +11,9 @@ const config: Config = {
       backgroundImage: {
         "banner-bg": "url('/public/hero.jpg')",
       },
+      screens: {
+        '3xl': '1920px', // Custom breakpoint for 1920px and up
+      },
     },
   },
   plugins: [],
