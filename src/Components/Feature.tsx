@@ -19,7 +19,7 @@ const Feature = () => {
         
           <h1 className='text-[30px]  sm:text-5xl' style={{fontFamily:'Proxima-Nova-Bold, sans-serif', lineHeight:'50.6px'}}>Connect with matches <br /> the way you like
           </h1>
-          <p className='text-[16px] sm:text-[28px] sm:text-xl'style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'42px'}}>Cras at pellentesque eros. Nullam vitae <br />sapien et felis eleifend luctus. Nam ac dui</p>
+          <p className='text-[16px] sm:text-[28px]'style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'42px'}}>Cras at pellentesque eros. Nullam vitae <br />sapien et felis eleifend luctus. Nam ac dui</p>
           <div className="">
           <div className="flex flex-col px-8 py-7 mt-9 rounded-3xl backdrop-blur-[4.6px] bg-white bg-opacity-80 md:w-1/2 lg:w-11/12 w-full max-w-lg mr-0 md:mr-20">
           <div className="flex gap-5 max-md:flex-wrap">

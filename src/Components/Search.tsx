@@ -78,7 +78,7 @@ const Search = () => {
               Browse matrimonial profiles by
             </h1>
           </div>
-          <p className=" text-[20px] sm:text-[28px] sm:text-xl text-[#101828E5]" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '42px'}}>
+          <p className=" text-[20px] sm:text-[28px] text-[#101828E5]" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '42px'}}>
             Your search for a great relationship has never been easier with <br />
             groundbreaking overhaul of the eharmony you know and trust.
           </p>
