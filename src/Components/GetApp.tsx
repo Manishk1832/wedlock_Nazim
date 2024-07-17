@@ -16,7 +16,7 @@ const GetApp = () => {
           <div className="">
             <div className=" mt-4 ">
               <h1 className="text-[3rem]  sm:text-5xl md:text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
-              <p className=" sm:text-xl pt-5" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:40px lg:42px', letterSpacing: '1px sm:1.5px lg:2px' }}>
+              <p className=" sm:text-[28px] pt-5 font-normal" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
                 Lorem ipsum dolor sit amet consectetur. <br /> Dui mauris dictum ultrices rutrum nec arcu <br />vel. Viverra egestas vitae aenean placerat <br />faucibus pharetra.
               </p>
             </div>
@@ -26,7 +26,7 @@ const GetApp = () => {
                   <FaApple className="text-1xl sm:text-4xl md:text-5xl" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm font-bold" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
-                    <p className="text-[0.7rem] font-bold">Apple Store</p>
+                    <p className="text-[1.2rem] font-bold">Apple Store</p>
                   </div>
                 </div>
               </button> 
@@ -35,7 +35,7 @@ const GetApp = () => {
                   <FaGooglePlay className="text-1xl sm:text-4xl md:text-5xl text-[#231F20E5]" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
-                    <p className=" text-[0.7rem] sm:text-0 font-medium">Google Store</p>
+                    <p className=" text-[1.2rem] sm:text-0 font-medium">Google Store</p>
                   </div>
                 </div>
               </button>
@@ -43,9 +43,9 @@ const GetApp = () => {
           </div>
           <div className="mt-8 lg:mt-0 relative flex justify-center lg:justify-end w-full lg:w-1/2">
           <div className="mt-8 lg:mt-0 relative flex justify-center lg:justify-end w-full lg:w-1/2">
-          <div className="relative  w-[100%] h-[100%] p-0 m-0">
-            <Image src="/qr.svg" width={200} height={200} alt="QR code" className="absolute w-[80%] sm:w-[100%] p-0 h-[100%] m-0 sm:right-48 z-20" />
-            <Image src="/ph.svg" width={150} height={300} alt="Phone" className="w-[90%] sm:w-[100%] p-0 h-[100%] m-0 relative left-9 " />
+          <div className="  w-[100%] h-[100%] p-0 m-0">
+            <Image src="/qr.svg" width={200} height={200} alt="QR code" className="absolute w-[80%] sm:w-[90%] p-0 h-[100%] m-0 sm:right-48 z-20" />
+            <Image src="/ph.svg" width={150} height={300} alt="Phone" className="w-[90%] sm:w-[90%] p-0 h-[100%] m-0 relative  " />
           </div>
           </div>
 

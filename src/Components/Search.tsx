@@ -78,22 +78,22 @@ const Search = () => {
               Browse matrimonial profiles by
             </h1>
           </div>
-          <p className=" text-[20px] sm:text-xl text-[#101828E5]" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '30px', letterSpacing:'2px'}}>
+          <p className=" text-[20px] sm:text-[28px] sm:text-xl text-[#101828E5]" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '42px'}}>
             Your search for a great relationship has never been easier with <br />
             groundbreaking overhaul of the eharmony you know and trust.
           </p>
         </div>
         <div className="md:flex justify-left gap-10 items-center my-10">
-          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4 text-[24px]" style={{fontFamily:'Proxima-Nova-SemiBold, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
+          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4 text-[24px]" style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
             Mother Tongue
           </div>
-          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-SemiBold, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
+          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
             Religion
           </div>
-          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-SemiBold, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
+          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
             Community
           </div>
-          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-SemiBold, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
+          <div className="rounded-full cursor-pointer hover:bg-[#009BDA] hover:text-white text-[#838E9E] p-4  text-[24px]" style={{fontFamily:'Proxima-Nova-Regular, sans-serif',lineHeight:'36px', letterSpacing:'3%'}}>
             Nationality
           </div>
         </div>

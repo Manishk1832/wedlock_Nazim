@@ -61,23 +61,23 @@ function Hero() {
 
 
   return (
-    <div className="relative sm:h-[45rem] h-auto overflow-hidden py-20 sm:py-0">
+    <div className="relative sm:h-[39rem] h-auto overflow-hidden py-20 sm:py-0">
 
 
 
 
       <div className="absolute inset-0 ">
-        <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 gap-1 md:gap-2 rotate-12 sm:rotate-12 h-full scale-[1.39]">
+        <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 gap-1 md:gap-2 rotate-12 sm:rotate-12 h-full scale-[1.39] bg-gray-700">
           {imagePaths.map((path, index) => (
-            <div key={index} className="relative w-full h-full">
-              <Image src={path} layout="fill" objectFit="cover" alt={`Image ${index + 1}`} />
+            <div key={index} className="relative w-full h-full bg-black">
+              <Image src={path} layout="fill" objectFit="cover" alt={`Image ${index + 1}`}  />
             </div>
           ))}
         </div>
       </div>
       <div className="relative   bg-black bg-opacity-60 text-white h-full md:pl-16 md:flex md:pt-32 pt-16 md:px-10 gap-80">
         <div className="space-y-20">
-          <div className="flex flex-col justify-center gap-10 ml-10 mt-20">
+          <div className="flex flex-col justify-center gap-10 ml-10 mt-10">
             <h1
               className="text-4xl md:text-4xl mt-10 md:mt-0 xl:text-8xl font-bold"
               style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', letterSpacing: '2px' }}
@@ -85,14 +85,14 @@ function Hero() {
               Love At <br /> First Swipe
             </h1>
             <p
-              className="text-2xl"
-              style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif', letterSpacing: '2px' }}
+              className="sm:text-[36px] font-bold text-white"
+              style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', letterSpacing: '2%', lineHeight:'50.4px', }}
             >
               Australia's most trusted Matrimony <br /> Website and Mobile
               Application
             </p>
           </div>
-          <div className="absolute top-[60px] right-[130px] backdrop-blur backdrop-brightness-125 rounded-3xl w-[25%] h-[70%] border-8 border-white-2 flex items-center justify-center hidden md:block"></div>
+          <div className="absolute top-[60px] right-[130px] backdrop-blur backdrop-brightness-125 rounded-3xl w-[25%] h-[73%] border-8 border-white-2 flex items-center justify-center hidden md:block"></div>
           <Link
             href={"/questions"}
             className="flex items-center justify-between bg-[#009BDA] rounded-full w-56 h-12 px-5 text-lg ml-10 sm:relative bottom-10"

@@ -7,13 +7,13 @@ function Pre() {
   return (
     
 
-    <div className='w-100 h-auto bg-[#E6F2F7]'>
+    <div className='w-100 h-auto bg-[#E6F2F7] sm:pb-12'>
 
 <div className=' space-y-10 bg-[#E6F2F7] relative overflow-hidden px-5 sm:px-20 py-10 container m-auto'>
         <img src="/Vector.png" alt='arw' className='absolute  w-[38rem] -right-4 -top-40'/>
         <div className='space-y-7'>
             <h1 className='text-[#007EAF] text-3xl text-left md:text-3xl xl:text-6xl ' style={{fontFamily: 'Proxima-Nova-Bold, sans-serif'}}>The premier matrimony application </h1>
-            <p className='text-[#475467] text-lg text-balance xl:text-xl text-left' style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>With over two decades of reliable matchmaking experience, supported by a <br /> committed Trust and Safety team at your service.
+            <p className='text-[#475467] text-[28px] text-left' style={{fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight:'42px'}}>With over two decades of reliable matchmaking experience, supported by a <br /> committed Trust and Safety team at your service.
             </p>
         </div>
         <div className='grid grid-cols-1 xl:grid-cols-3 gap-10 '>

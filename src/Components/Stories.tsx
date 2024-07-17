@@ -25,7 +25,7 @@ const Stories = () => {
 
   return (
     
-    <div className="w-full h-auto py-5 bg-[#007EAF]" >
+    <div className="w-full h-auto  bg-[#007EAF] pb-20" >
 
 
       
@@ -44,7 +44,7 @@ const Stories = () => {
             <IoArrowForward className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={nextSlide} />
           </div>
         </div>
-        <p className="md:text-2xl text-xl sm:w-[60%] w-full " style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',letterSpacing: '2%', lineHeight: '42px' }}>
+        <p className="sm:w-[60%] w-full " style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',fontSize:'28px',lineHeight: '32px sm:42px lg:42px' }}>
           Dive into stories of unexpected friendships, love that blossoms in the most extraordinary places, and dreams that come true against all odds.
         </p>
       </div>

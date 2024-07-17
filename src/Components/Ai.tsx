@@ -12,7 +12,7 @@ const Ai = () => {
         alt="arw"
         className="absolute  w-[40rem] rotate-12 -right-10 -top-32"
       />
-      <div className=" md:space-y-40 md:px-20 md:pt-20 p-10  ">
+      <div className=" md:space-y-20 md:px-20 md:pt-20 p-10  ">
         <div className="relative text-white space-y-10">
           <p className="md:text-6xl text-2xl sm:text-1xl  font-bold w-[60%] sm:w-auto">
             AI-driven match <br /> recommendations to suit your <br />{" "}

@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
 
         <div className="flex px-3 xl:px-16 items-center justify-between  w-full">
           <div className='text-white '>
-            <ul className='hidden md:flex gap-5 '>
+            <ul className='hidden md:flex gap-5 sm:mt-7 '>
               <li><Link href="/mission">Mission</Link></li>
               <li><Link href="/advice">Advice</Link></li>
               <li><Link href="/help">Help</Link></li>

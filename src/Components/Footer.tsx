@@ -31,14 +31,14 @@ const Footer = () => {
    
 <div className="w-100 h-auto bg-[#2A2A2A]">
 
-<div className="px-6 sm:px-14  text-white space-y-8 sm:py-20 py-10 container m-auto">
+<div className="px-6 sm:px-14  text-white space-y-8 sm:py-16 py-10 container m-auto sm:font-normal">
       <div className="md:flex gap-10 space-y-8">
         <div className="md:w-2/4 space-y-5">
           <div className="flex items-center">
             <Image src="/Logo.svg" alt="logo" width={300} height={100} />
             <h1 className="-rotate-90 relative top-4 right-2 text-lg text-center xl:text-xl">.au</h1>
           </div>
-          <p>
+          <p className="sm:w-[80%]">
             In the spirit of reconciliation, Wedlock acknowledges the
             Traditional Custodians of country throughout Australia and their
             connections to land, sea and community. We pay our respect to their
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div>
           <ul>
-            <li><Link href="/mission">Mission</Link></li>
+            <li><Link href="/mission" >Mission</Link></li>
             <li><Link href="/career">Career</Link></li>
             <li><Link href="/success-stories">Success Stories</Link></li>
             <li><Link href="/contact">Contact</Link></li>
@@ -82,12 +82,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-between">
-      <div className="rounded-full bg-[#FFFFFF80] h-1 w-[95%] "></div> 
-       <button className="text-white  rounded-full bg-[#007EAF] w-12 h-12 flex items-center justify-center text-2xl" >
+      <div className="rounded-full bg-[#a5a4a480] h-[2px]  w-[95%] "></div> 
+       <button className="text-white  rounded-full ml-8 bg-[#007EAF] w-12 h-12 flex items-center justify-center text-2xl" >
           <Image src="/arrowup.png" alt="logo" width={20} height={50} />
         </button>
         </div>
-      <div className="flex flex-col md:flex-row items-end justify-between">
+      <div className="flex flex-col md:flex-row items-end justify-between h-6">
         <div>
           <h1 className="font-semibold">
             <i>Love at first swipe</i>
