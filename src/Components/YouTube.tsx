@@ -6,7 +6,7 @@ const YouTube = () => {
   return (
   
   
-  <div className='w-100 h-auto bg-[#E6F2F7] 3xl:pl-[8%] xl:px-8 7xl:px-32'>
+  <div className='w-100 h-auto bg-[#E6F2F7] 3xl:pl-[8%] xl:px-8 7xl:px-32 8xl:px-32'>
  <div className='relative overflow-hidden container m-auto sm:px-6 px-6 w-100' >
        <img
         src="/curvesm.svg"
