@@ -8,7 +8,7 @@ const GetApp = () => {
   return (
     
     
-    <div className="w-100 h-auto bg-[#007EAF] py-5 pb-12 sm:py-0 sm:pb-0 3xl:px-36 xl:px-10">
+    <div className="w-100 h-auto bg-[#007EAF] py-5 pb-12 7xl:px-32 sm:py-0 sm:pb-0 3xl:px-36 xl:px-10">
 
 <div className=" text-white  overflow-hidden container m-auto">
       <div className="flex flex-col lg:flex-row justify-between lg:justify-between flex-wrap">

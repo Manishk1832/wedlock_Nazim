@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className={`absolute z-10 w-full h-auto 3xl:px-32  xl:px-10 text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ''}`}>
+      <div className={`absolute  navbar z-10 w-full h-auto 3xl:px-32 7xl:px-32  xl:px-10 text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ''}`}>
 
 
 

@@ -6,7 +6,7 @@ const Feature = () => {
   return (
     
     
-    <div className='w-100 h-auto bg-[#007EAF] pt-6 sm:pt-0 3xl:px-48 xl:px-10'>
+    <div className='w-100 h-auto bg-[#007EAF] pt-6 sm:pt-0 3xl:px-48 xl:px-10 7xl:px-36'>
 
 <div className='relative overflow-hidden container m-auto'>
         <img

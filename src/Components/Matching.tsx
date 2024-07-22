@@ -7,10 +7,10 @@ import { IoMdArrowForward } from "react-icons/io";
 import '../app/font.css';
 const Matching = () => {
   return (
-    <div className="bg-[#e0ccf6]  px-6 pt-12  relative w-100 sm:pb-16 pb-12 sm:py-16 3xl:px-28 2xl:px-24">
+    <div className="bg-[#DCD1E8] bg-gradient-to-bl from-[white] to-[#DCD1E8]  px-6 pt-12  relative w-100 sm:pb-16 pb-12 sm:py-16 3xl:px-28 2xl:px-24">
      
      
-      <div className="bg-[url('/shadow.png')] -rotate-342 absolute w-[80rem] h-[100%]  top-0 right-0  hidden sm:block"></div>
+      <div className="bg-[url('/shadow.png')] -rotate-342 absolute w-[80rem] h-[100%]  top-0 right-0  sm:hidden hidden "></div>
       <Image
     src="/curve.png"
     alt="arw"
@@ -23,12 +23,12 @@ const Matching = () => {
 
       <div className="text-[#60457E]   sm:px-20 z-20 container w-100 3xl:px-28 4xl:px-24">
         <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold  sm:text-5xl text-[#4E3A63] leading-none sm:leading-[89.5px] " style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif' }}>Exclusive matchmaking</h1>
-        <p className="text-[16px] sm:text-[28px] pt-10">
+        <p className="text-[16px] sm:text-[28px] pt-10 text-[#475467]">
           Cras at pellentesque eros. Nullam vitae sapienet felis eleifend
           luctus. Nam ac dui
         </p>
       </div>
-      <div className="md:flex container m-auto  mt-6  justify-between items-center  sm:w-[87%] w-100 gap-40   bg-[#8E69B4] rounded-3xl px-6 sm:px-10 py-5 opacity-95	sm:mt-12">
+      <div className="md:flex container m-auto  mt-6  justify-between items-center  sm:w-[87%] w-100 gap-40   bg-[#60457E] rounded-3xl px-6 sm:px-10 py-5 opacity-95	sm:mt-12">
       <div className="relative w-full h-full flex justify-center items-center">
         <Image
           src="/matching.svg"

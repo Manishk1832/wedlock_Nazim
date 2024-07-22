@@ -25,7 +25,7 @@ const Stories = () => {
 
   return (
     
-    <div className="w-full h-auto  bg-[#007EAF] pb-10 sm:pb-[80px] 3xl:px-48 xl:px-10" >
+    <div className="w-full h-auto  bg-[#007EAF] pb-10 sm:pb-[80px] 3xl:px-48 xl:px-10 7xl:px-36" >
 
 
       

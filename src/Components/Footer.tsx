@@ -29,7 +29,7 @@ const Footer = () => {
 
   return (
    
-<div className="w-100 h-auto bg-[#2A2A2A] 3xl:px-56 xl:px-24">
+<div className="w-100 h-auto bg-[#2A2A2A] 3xl:px-56 xl:px-24 7xl:px-40">
 
 <div className="px-6 sm:px-14  text-white space-y-8 sm:py-16 py-10 container m-auto sm:font-normal ">
       <div className="md:flex gap-10 space-y-8">

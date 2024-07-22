@@ -7,7 +7,7 @@ function Pre() {
   return (
     
 
-    <div className='w-100 h-auto bg-[#E6F2F7] pb-10 3xl:px-48 xl:px-10 xl:pb-28 xl:pt-20'>
+    <div className='w-100 h-auto bg-[#E6F2F7] pb-10 3xl:px-48 xl:px-10 xl:pb-28 xl:pt-20 7xl:px-36 7xl:py-28'>
 
 <div className=' space-y-10 bg-[#E6F2F7] relative overflow-hidden px-5 sm:px-20 py-4 container m-auto'>
         <img src="/Vector.png" alt='arw' className='absolute  w-[38rem] -right-4 -top-40'/>

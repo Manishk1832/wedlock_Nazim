@@ -56,64 +56,90 @@ background-position:center;
 
 
 
-@media (min-width:1366px) 
+@media (min-width:1280px)
 {
 
 .hero_section
 {
-background-size:200% 400%;
-background-position:center;
+  background-size: 250% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
+  background-repeat: repeat; /* Repeat the background if necessary */
+
+
+
+
 
 }
+
 }
 
 
-
-@media (min-width:1440px) 
+@media (min-width:1440px)
 {
 
 .hero_section
 {
-background-size:340% 350%;
-background-position:center;
+  background-size: 250% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
+  background-repeat: repeat; /* Repeat the background if necessary */
+
+
+
+
 
 }
 
 }
 
 
-@media (min-width:1280px) 
+@media (min-width:1366px)
 {
 
 .hero_section
 {
-background-size:340% 400%;
-background-position:center;
+  background-size: 250% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
+  background-repeat: repeat; /* Repeat the background if necessary */
+
+
+
+
 
 }
 
 }
 
-@media (min-width:1512px) 
+@media (min-width:1512px)
 {
 
 .hero_section
 {
-background-size:340% 350%;
-background-position:center;
+  background-size: 250% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
+  background-repeat: repeat; /* Repeat the background if necessary */
+
+
+
+
 
 }
 
 }
 
-@media (min-width:1440px) 
+
+@media (min-width:1792px)
 {
 
 .hero_section
 {
-background-size:340% 350%;
-background-position:center;
+  background-size: 250% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
+  background-repeat: repeat; /* Repeat the background if necessary */
 
 }
 
 }
+
+
+
+

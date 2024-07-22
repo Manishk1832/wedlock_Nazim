@@ -11,7 +11,7 @@ function Hero() {
 
 
   return (
-    <div className="relative hero_section bg-black h-auto overflow-hidden  bg-center  top-0 py-0   sm:py-0 3xl:h-[69rem]  xl:h-[40rem]  5xl:h-[57rem]   4xl:h-[62rem]  "  style={{ backgroundImage: `url(${heroImg.src})`,width:'100%',  // Zoom effect (adjust percentage as needed)
+    <div className="relative hero_section bg-black  overflow-hidden 7xl:h-[70rem]   top-0 py-0   sm:py-0 3xl:h-[69rem]  xl:h-[50rem]   5xl:h-[57rem]   4xl:h-[62rem]  "  style={{ backgroundImage: `url(${heroImg.src})`,width:'100%',  // Zoom effect (adjust percentage as needed)
   }}
 >
 
@@ -35,7 +35,7 @@ function Hero() {
       
       <div className="relative 3xl:pl-30   bg-black bg-opacity-60 text-white h-full md:pl-16 md:flex md:pt-32 pt-16 md:px-10 gap-80 ">
         <div className="space-y-20 xl:pt-10 lg:relative lg:bottom-10 5xl:pt-40 2xl:px-20 2xl:pt-60">
-          <div className="flex flex-col justify-center gap-5 w-full ml-7    sm:gap-10 sm:ml-10  mt-5 sm:mt-10 3xl:pt-12 hero_content" >
+          <div className="flex flex-col justify-center gap-5 w-full ml-7    sm:gap-10 sm:ml-10  mt-5 sm:mt-10 3xl:pt-12 hero_content xl:pt-12" >
             <h1
               className="text-[48px]  md:text-4xl mt-10 md:mt-0 xl:text-8xl font-bold"
               style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', letterSpacing: '2px' }}
