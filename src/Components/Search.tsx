@@ -59,10 +59,10 @@ const Search = () => {
   ];
 
   return (
-    <div className="w-100 h-auto bg-[#E6F2F7] 3xl:px-56 ">
+    <div className="w-100 h-auto bg-[#E6F2F7] 3xl:px-56 xl:px-10  5xl:py-4">
       
       <div
-        className="md:space-y-10 relative min-h-screen  md:px-20 md:py-10 3xl:py-16 3xl:pt-28  p-8 container m-auto"
+        className="md:space-y-10 relative min-h-screen  md:px-20 md:py-10 3xl:py-16 3xl:pt-28  p-8 container m-auto 5xl:h-[20rem]"
       >
           <Image
         src="/curvesm.svg"
@@ -79,7 +79,7 @@ const Search = () => {
             </h1>
           </div>
           <p className=" text-[20px] sm:text-[28px] text-[#101828E5] sm:leading-[42px]" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
-            Your search for a great relationship has never been easier with <br />
+            Your search for a great relationship has never been easier with 
             groundbreaking overhaul of the eharmony you know and trust.
           </p>
         </div>

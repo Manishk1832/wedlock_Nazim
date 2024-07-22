@@ -32,3 +32,88 @@ body{
     z-index: -1 !important;
   }
 }
+
+
+@media (min-width:300px) and (max-width:480px)
+{
+  .hero_section
+  {
+    height:100vh;
+    background-size:750% 250%;
+background-position:center;
+
+  }
+}
+
+@media (min-width:300px) and (max-width:480px)
+{
+  .hero_content
+  {
+   padding-top:40% !important;
+
+  }
+}
+
+
+
+@media (min-width:1366px) 
+{
+
+.hero_section
+{
+background-size:200% 400%;
+background-position:center;
+
+}
+}
+
+
+
+@media (min-width:1440px) 
+{
+
+.hero_section
+{
+background-size:340% 350%;
+background-position:center;
+
+}
+
+}
+
+
+@media (min-width:1280px) 
+{
+
+.hero_section
+{
+background-size:340% 400%;
+background-position:center;
+
+}
+
+}
+
+@media (min-width:1512px) 
+{
+
+.hero_section
+{
+background-size:340% 350%;
+background-position:center;
+
+}
+
+}
+
+@media (min-width:1440px) 
+{
+
+.hero_section
+{
+background-size:340% 350%;
+background-position:center;
+
+}
+
+}
