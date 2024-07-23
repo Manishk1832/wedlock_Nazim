@@ -74,7 +74,7 @@ const Search = () => {
         
         <div className="md:space-y-10 space-y-5">
           <div className="flex items-center  justify-between  w-[100%] ">
-            <h1 className=" text-[30px] sm:text-5xl text-[#007EAF]  " style={{fontFamily: 'Proxima-Nova-Bold, sans-serif', lineHeight: '40.6px'}}>
+            <h1 className=" text-[64px]  text-[#007EAF]  " style={{fontFamily: 'Proxima-Nova-bold', lineHeight: '40.6px'}}>
               Browse matrimonial profiles by
             </h1>
           </div>

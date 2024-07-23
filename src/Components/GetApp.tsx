@@ -15,8 +15,8 @@ const GetApp = () => {
         <div className="bg-container flex flex-col lg:flex-row justify-between w-full px-6 md:px-16  md:py-12">
           <div className="">
             <div className="  3xl:pt-12">
-              <h1 className="text-[2rem]  sm:text-5xl md:text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
-              <p className=" sm:text-[28px] pt-5 font-normal text-[14px] text-start" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
+              <h1 className=" text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold,', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
+              <p className="text-[28px] pt-5 font-normal text-start" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
                 Lorem ipsum dolor sit amet consectetur. <br /> Dui mauris dictum ultrices rutrum nec arcu <br />vel. Viverra egestas vitae aenean placerat <br />faucibus pharetra.
               </p>
             </div>

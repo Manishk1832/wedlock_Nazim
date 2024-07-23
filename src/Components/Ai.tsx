@@ -14,10 +14,10 @@ const Ai = () => {
       />
       <div className=" md:space-y-20 md:px-20 md:pt-20 p-10  ">
         <div className="relative text-white space-y-10">
-          <p className="md:text-6xl text-2xl sm:text-1xl  font-bold w-[60%] sm:w-auto">
+          <h1 className="text-[64px]   w-[60%] sm:w-auto" style={{ fontFamily: 'Proxima-Nova,', fontWeight: 700, }}>
             AI-driven match <br /> recommendations to suit your <br />{" "}
             preferences
-          </p>
+          </h1>
           <Image
             src="/thunder.svg"
             alt=""

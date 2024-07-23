@@ -48,8 +48,8 @@ const Navbar: React.FC = () => {
               <div className="flex justify-around  items-center  md:my-0 ">
 
           
-              <Image src="/Logo.svg" alt="logo" width={200} height={100} className="w-40 xl:w-[200px] md:h-[90px]   " />
-              <h1 className="-rotate-90 relative top-2 md:top-4 mr-40 right-2 text-sm md:text-xl">.au</h1>
+              <Image src="/Logo.svg" alt="logo" width={200} height={100} className="w-[273px]  h-[90px]   " />
+              <h1 className="-rotate-90 relative top-2 md:top-4 mr-40 right-2 text-[20px] md:text-xl">.au</h1>
               </div>
             </div>
 

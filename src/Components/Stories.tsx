@@ -38,13 +38,13 @@ const Stories = () => {
       />
       <div className="md:space-y-10 space-y-5">
         <div className="flex items-center justify-between gap-5">
-          <h1 className="md:text-6xl text-3xl " style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', lineHeight: '89.5px' }}>Happy Stories</h1>
+          <h1 className="text-[64px] " style={{ fontFamily: 'Proxima-Nova-regular',fontWeight:700, lineHeight: '89.5px' }}>Happy Stories</h1>
           <div className="flex items-center gap-4 z-10">
             <IoArrowBack className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={prevSlide} />
             <IoArrowForward className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={nextSlide} />
           </div>
         </div>
-        <p className="sm:w-[60%] w-full xl:w-full sm:text-[28px] " style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',lineHeight: '32px sm:42px lg:42px' }}>
+        <p className="sm:w-[60%] w-full xl:w-full text-[28px] " style={{ fontFamily: 'Proxima-Nova-regular',lineHeight: '32px sm:42px lg:42px' }}>
           Dive into stories of unexpected friendships, love that blossoms in the most extraordinary places, and dreams that come true against all odds.
         </p>
       </div>
