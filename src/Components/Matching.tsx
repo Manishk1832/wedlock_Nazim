@@ -22,8 +22,8 @@ const Matching = () => {
 
 
       <div className="text-[#60457E]   sm:px-20 z-20 container w-100 3xl:px-28 4xl:px-24">
-        <h1 className="text-[64px]    text-[#4E3A63] leading-none sm:leading-[89.5px] " style={{ fontFamily: 'Proxima-Nova-Bold,', fontWeight: 700, }}>Exclusive matchmaking</h1>
-        <p className="text-[28px]  pt-10 text-[#475467]">
+        <h1 className="text-[64px]    text-[#4E3A63]  " style={{ fontFamily: 'Proxima-Nova-Bold,', fontWeight: 700, lineHeight:'83px'}}>Exclusive matchmaking</h1>
+        <p className="text-[28px]  pt-[21px] text-[#475467]">
           Cras at pellentesque eros. Nullam vitae sapienet felis eleifend
           luctus. Nam ac dui
         </p>
@@ -74,7 +74,7 @@ const Matching = () => {
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-between px-4 text-white bg-[#3C2C4C] rounded-full md:w-60 md:h-16 h-10 ">
-              <button className="md:text-lg text-sm">Check your Eligibility </button>
+              <button className=" text-false">Check your Eligibility </button>
 
               <IoMdArrowForward className="md:text-2xl text-lg " />
             </div>

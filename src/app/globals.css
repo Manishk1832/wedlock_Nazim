@@ -9,9 +9,6 @@
 
 
 
-body{
- font-family: 'Proxima-Nova-Semibold',sans-serif ;
-}
 
 /* .bg-dark-blue {
   background-color: #1a202c;
@@ -20,6 +17,7 @@ body{
 /* .bg-light-blue {
   background-color: #3b82f6; 
 } */
+
 
 
 @media (max-width: 668px) {
@@ -61,7 +59,7 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 230% 270%; /* Adjust size as needed */
+  background-size: 280% 260%; /* Adjust size as needed */
   background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 }
@@ -76,7 +74,7 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 230% 250%; /* Adjust size as needed */
+  background-size: 230% 280%; /* Adjust size as needed */
   background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
@@ -90,7 +88,7 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 230% 270%; /* Adjust size as needed */
+  background-size: 280% 280%; /* Adjust size as needed */
   background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
@@ -103,7 +101,7 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 230% 250%; /* Adjust size as needed */
+  background-size: 250% 250%; /* Adjust size as needed */
   background-position:34% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
@@ -119,7 +117,7 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 230% 270%; /* Adjust size as needed */
+  background-size: 240% 270%; /* Adjust size as needed */
   background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 }

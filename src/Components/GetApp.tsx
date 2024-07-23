@@ -16,7 +16,7 @@ const GetApp = () => {
           <div className="">
             <div className="  3xl:pt-12">
               <h1 className=" text-[64px]" style={{ fontFamily: 'Proxima-Nova-Bold,', fontWeight: 700, lineHeight: '89.6px' }}>Get the app!</h1>
-              <p className="text-[28px] pt-5 font-normal text-start" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif', lineHeight: '32px sm:42px lg:42px' }}>
+              <p className="text-[28px] pt-[21px]  text-start" style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '32px sm:42px lg:42px' }}>
                 Lorem ipsum dolor sit amet consectetur. <br /> Dui mauris dictum ultrices rutrum nec arcu <br />vel. Viverra egestas vitae aenean placerat <br />faucibus pharetra.
               </p>
             </div>
@@ -26,7 +26,7 @@ const GetApp = () => {
                   <FaApple className="text-4xl sm:text-4xl md:text-5xl" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm font-bold" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
-                    <p className="text-[1.2rem] sm:text-[1.2rem] font-bold ">Apple Store</p>
+                    <p className="text-[1.2rem] text-[#231F20E5] ">Apple Store</p>
                   </div>
                 </div>
               </button> 
@@ -35,7 +35,7 @@ const GetApp = () => {
                   <FaGooglePlay className="text-4xl sm:text-4xl md:text-5xl text-[#231F20E5]" />
                   <div className="text-start">
                     <p className="text-[#231F20B2] text-sm" style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}>Download from</p>
-                    <p className=" text-[1.2rem] sm:text-0 font-medium">Google Store</p>
+                    <p className=" text-[1.2rem] text-[#231F20E5] ">Google Store</p>
                   </div>
                 </div>
               </button>

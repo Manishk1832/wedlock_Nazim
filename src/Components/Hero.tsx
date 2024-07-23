@@ -38,14 +38,14 @@ function Hero() {
         <div className="  2xl:px-20   xl:w-[100%] flex justify-center items-center">
           <div className=" text-center  xl:w-[100%]  hero_content  " >
             <h1
-              className="text-[48px]   xl:text-[123px] font-white-700"
-              style={{ fontFamily: 'Proxima-Nova,', lineHeight: '149.81px', letterSpacing: '2%' }}
+              className="text-[123px] text-[#FFFFFF]"
+              style={{ fontFamily: 'Proxima-Nova-bold,', lineHeight: '149.81px', letterSpacing: '2%', fontWeight:'700' }}
             >
               Love At First Swipe
             </h1>
             <p
-              className="sm:text-[36px]  text-white-400 text-[28px] xl:text-28 sm:leading-[50.4px] xl:pt-8"
-              style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '42px', letterSpacing: '2%' }}
+              className="  text-[#FFFFFF] text-[28px] xl:pt-8"
+              style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '42px', letterSpacing: '2%', fontWeight:'400' }}
             >
               Australia's most trusted Matrimony  Website and  <br />Mobile
               Application
