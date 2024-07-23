@@ -38,7 +38,7 @@ const Footer = () => {
             <Image src="/Logo.svg" alt="logo" width={300} height={100} />
             <h1 className="-rotate-90 relative top-4 right-2 text-lg text-center xl:text-xl">.au</h1>
           </div>
-          <p className="sm:w-[80%]">
+          <p className="sm:w-[80%] " style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             In the spirit of reconciliation, Wedlock acknowledges the
             Traditional Custodians of country throughout Australia and their
             connections to land, sea and community. We pay our respect to their
@@ -47,7 +47,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <ul>
+          <ul style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             <li><Link href="/mission" >Mission</Link></li>
             <li><Link href="/career">Career</Link></li>
             <li><Link href="/success-stories">Success Stories</Link></li>
@@ -55,14 +55,14 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <ul>
+          <ul style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             <li><Link href="/safe-matrimonial-tips">Safe Matrimonial Tips</Link></li>
             <li><Link href="/faqs">FAQs</Link></li>
             <li><Link href="/trust-and-safety">Trust & Safety</Link></li>
           </ul>
         </div>
         <div>
-          <ul>
+          <ul style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             <li><Link href="/legal">Legal</Link></li>
             <li><Link href="/security">Security</Link></li>
             <li><Link href="/terms">Terms</Link></li>
@@ -71,7 +71,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <div className="space-y-2">
+          <div className="space-y-2" style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             <h1 className="">Social</h1>
             <div className="flex gap-5 text-2xl">
               <FaFacebookF />
@@ -88,7 +88,7 @@ const Footer = () => {
         </button>
         </div>
       <div className="flex flex-col md:flex-row items-end justify-between h-6">
-        <div>
+        <div style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
           <h1 className="font-semibold">
             <i>Love at first swipe</i>
           </h1>
@@ -97,7 +97,7 @@ const Footer = () => {
             dating website.
           </p>
         </div>
-        <h1 className="mt-2 sm:text-[16px]   py-5  " style={{letterSpacing: '3%' , lineHeight:'22px'}} >© 2024 Wedlock Australia. All rights reserved.</h1>
+        <h1 className="mt-2 sm:text-[16px]   py-5  " style={{letterSpacing: '3%' , lineHeight:'22px', fontFamily: 'Proxima-Nova-Regular, sans-serif'}}  >© 2024 Wedlock Australia. All rights reserved.</h1>
        
       </div>
     </div>

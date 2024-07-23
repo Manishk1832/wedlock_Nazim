@@ -61,16 +61,12 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 260% 290%; /* Adjust size as needed */
-  background-position:27% center; /* Move 10% from the left edge, center vertically */
+  background-size: 230% 270%; /* Adjust size as needed */
+  background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
-  padding-top:10%;
 }
 
-.hero_child
-{
-  padding-top:30%;
-}
+
 
 }
 
@@ -80,8 +76,8 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 200% 200%; /* Adjust size as needed */
-  background-position:27% center; /* Move 10% from the left edge, center vertically */
+  background-size: 230% 250%; /* Adjust size as needed */
+  background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
 }
@@ -94,8 +90,8 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 200% 290%; /* Adjust size as needed */
-  background-position:27% center; /* Move 10% from the left edge, center vertically */
+  background-size: 230% 270%; /* Adjust size as needed */
+  background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
 }
@@ -107,8 +103,8 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 200% 290%; /* Adjust size as needed */
-  background-position:27% center; /* Move 10% from the left edge, center vertically */
+  background-size: 230% 250%; /* Adjust size as needed */
+  background-position:34% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 
 
@@ -123,8 +119,8 @@ background-position:center;
 
 .hero_section
 {
-  background-size: 200% 290%; /* Adjust size as needed */
-  background-position:27% center; /* Move 10% from the left edge, center vertically */
+  background-size: 230% 270%; /* Adjust size as needed */
+  background-position:35% center; /* Move 10% from the left edge, center vertically */
   background-repeat: repeat; /* Repeat the background if necessary */
 }
 

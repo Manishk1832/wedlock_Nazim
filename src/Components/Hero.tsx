@@ -35,8 +35,8 @@ function Hero() {
 
 
       <div className="relative 3xl:pl-30   bg-black bg-opacity-60 text-white h-full md:pl-16 md:flex md:pt-32 md:px-10 gap-80 ">
-        <div className="space-y-20 xl:pt-5 lg:relative lg:bottom-10 5xl:pt-40 2xl:px-20 2xl:pt-60  xl:w-[100%]">
-          <div className=" text-center  xl:w-[100%]     hero_content   xl:pt-12 5xl:relative 5xl:bottom-28 8xl:relative 8xl:bottom-[12rem]" >
+        <div className="  2xl:px-20   xl:w-[100%] flex justify-center items-center">
+          <div className=" text-center  xl:w-[100%]  hero_content  " >
             <h1
               className="text-[48px]   xl:text-[123px] font-white-700"
               style={{ fontFamily: 'Proxima-Nova,', lineHeight: '149.81px', letterSpacing: '2%' }}
@@ -53,9 +53,9 @@ function Hero() {
 
             <Link
               href={"/questions"}
-              className="flex items-center justify-between xl:mt-16 bg-[#009BDA] rounded-full w-[249px] h-[60.46px] xl:pl-10 text-[20px] xl:m-auto text-white-700" style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '48px', }}
+              className="flex items-center justify-between xl:mt-16 bg-[#009BDA] rounded-full w-[249px] h-[64.46px] pl-6 text-[20px] xl:m-auto text-white-700" style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '48px', }}
             >
-              <div className="flex items-center gap-6 text-white-700">
+              <div className="flex items-center gap-10 text-white-700">
                 <span >Start free today</span>
                 <span className="text-xl xl:w-[35px] xl:h-[35]">
                   <IoMdArrowForward  />
@@ -74,7 +74,7 @@ function Hero() {
           className="absolute bottom-0 right-0 sm:pt-40 md:bottom-0 xl:bottom-40 xl:left-[70rem] 2xl:left-[80rem] hidden md:block 3xl:ml-[18%]  "
           style={{ transform: 'translateY(50%)' }}
         >
-          <div className="flex flex-col items-center gap-2 w-40   xl:absolute xl:bottom-[6%]">
+          <div className="flex flex-col items-center gap-2 w-100   ">
             <Image src="/veri.png" width={50} height={50} alt="logo" />
             <p
               className="text-center md:text-[14px]"
