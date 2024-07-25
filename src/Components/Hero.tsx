@@ -4,14 +4,14 @@ import { IoMdArrowForward } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
 import '../app/globals.css';
-import heroImg from './Hero.png';
+import heroImg from './bg.png';
 
 function Hero() {
 
 
 
   return (
-    <div className="relative hero_section  bg-black  overflow-hidden 7xl:h-[100vh]   top-0 py-0   sm:py-0 3xl:h-[100vh]  xl:h-[100vh]   5xl:h-[100vh]   4xl:h-[100vh]  " style={{
+    <div className="relative hero_section bg-cover  bg-no-repeat bg-black  overflow-hidden 7xl:h-[100vh]   top-0 py-0   sm:py-0 3xl:h-[100vh]  xl:h-[100vh]   5xl:h-[100vh]   4xl:h-[100vh]  " style={{
       backgroundImage: `url(${heroImg.src})`, width: '100%',  // Zoom effect (adjust percentage as needed)
     }}
     >

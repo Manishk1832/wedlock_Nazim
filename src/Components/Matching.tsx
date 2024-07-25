@@ -29,6 +29,7 @@ const Matching = () => {
         </p>
       </div>
       <div className="md:flex container m-auto  mt-6  justify-between items-center  sm:w-[87%] w-100 gap-40   bg-[#60457E] rounded-3xl px-6 sm:px-10 py-5 opacity-95	sm:mt-12">
+      
       <div className="relative w-full h-full flex justify-center items-center">
         <Image
           src="/matching.svg"
@@ -38,7 +39,7 @@ const Matching = () => {
           className="max-w-full max-h-full object-contain"
         />
       </div>
-        <div className="space-y-5">
+        <div className="space-y-5 relative right-[55px]">
           <p className="w-[100%] text-white pt-6 sm:pt-0 text-[12px] sm:text-[16px]">
             Aenean interdum arcu sit amet nulla lacinia <br /> suscipit. Vivamus at
             laoreet mi. Fusce pulvinar commodo
@@ -80,6 +81,7 @@ const Matching = () => {
             <div className="text-white text-[0.7rem] md:text-lg cursor-pointer  ">Read more</div>
           </div>
         </div>
+
       </div>
     </div>
   );

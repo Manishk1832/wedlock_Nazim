@@ -48,13 +48,13 @@ const Navbar: React.FC = () => {
               <div className="  md:my-0 px-0">
 
           
-              <Image src="/Logo.png" alt="logo" width={300} height={100} className="w-[280px]  h-[80px]  px-0 " />
+              <Image src="/newLogo.png" alt="logo" width={300} height={100} className="w-[280px]  h-[90px]  px-0 " />
               </div>
             </div>
 
 
             <div className='flex gap-5 items-start  justify-center'>
-              <button className='hidden md:flex items-center justify-center md:gap-3 text-[24px] text-white md:rounded-full rounded-3xl border-white font-bold border xl:w-32 w-20 md:h-10  px-3' onClick={openLogin}>
+              <button className='hidden md:flex items-center justify-center md:gap-3 text-[24px] text-white md:rounded-full rounded-3xl border-white font-bold border w-[170px] h-[68px] md:h-10  px-3' onClick={openLogin}>
                 Login
                 <RiArrowDropDownLine className="text-5xl" />
               </button>

@@ -35,8 +35,7 @@ const Footer = () => {
       <div className="md:flex gap-10 space-y-8">
         <div className="md:w-2/4 space-y-5">
           <div className="flex items-center">
-            <Image src="/Logo.svg" alt="logo" width={300} height={100} />
-            <h1 className="-rotate-90 relative top-4 right-2 text-lg text-center xl:text-xl">.au</h1>
+            <Image src="/newlogo.png" alt="logo" width={300} height={100} />
           </div>
           <p className="sm:w-[80%] " style={{fontFamily: 'Proxima-Nova-Regular, sans-serif'}}>
             In the spirit of reconciliation, Wedlock acknowledges the
