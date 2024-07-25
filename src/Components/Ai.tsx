@@ -14,7 +14,7 @@ const Ai = () => {
       />
       <div className=" md:space-y-20 md:px-20 md:pt-20 p-10  ">
         <div className="relative text-white space-y-10">
-          <h1 className="text-[64px]   w-[60%] sm:w-auto" style={{ fontFamily: 'Proxima-Nova-bold,', fontWeight: 700,lineHeight:'65px' }}>
+          <h1 className="text-[64px]   w-[60%] sm:w-auto" style={{ fontFamily: 'Proxima-Nova-bold,', fontWeight: 700,lineHeight:'83.2px' }}>
             AI-driven match <br /> recommendations to suit your <br />
             preferences
           </h1>

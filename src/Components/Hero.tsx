@@ -34,7 +34,7 @@ function Hero() {
       </div>
 
 
-      <div className="relative 3xl:pl-30   bg-black bg-opacity-60 text-white h-full md:pl-16 md:flex md:pt-32 md:px-10 gap-80 ">
+      <div className="relative 3xl:pl-30   bg-black bg-opacity-50 text-white h-full md:pl-16 md:flex md:pt-32 md:px-10 gap-80 ">
         <div className="  2xl:px-20   xl:w-[100%] flex justify-center items-center">
           <div className=" text-center  xl:w-[100%]  hero_content  " >
             <h1
@@ -53,13 +53,11 @@ function Hero() {
 
             <Link
               href={"/questions"}
-              className="flex items-center justify-between xl:mt-16 bg-[#009BDA] rounded-full w-[249px] h-[64.46px] pl-6 text-[20px] xl:m-auto text-white-700" style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '48px', }}
+              className="flex items-center justify-center xl:mt-16 bg-[#009BDA] rounded-full w-[249px] h-[64.46px]  text-[20px] xl:m-auto text-white-700" style={{ fontFamily: 'Proxima-Nova-Regular,', lineHeight: '48px', }}
             >
-              <div className="flex items-center gap-10 text-white-700">
+              <div className=" text-center  text-white-700">
                 <span >Start free today</span>
-                <span className="text-xl xl:w-[35px] xl:h-[35]">
-                  <IoMdArrowForward  />
-                </span>
+               
               </div>
             </Link>
           </div>
@@ -75,6 +73,8 @@ function Hero() {
           style={{ transform: 'translateY(50%)' }}
         >
           <div className="flex flex-col items-center gap-2 w-100   ">
+
+{/*
             <Image src="/veri.png" width={50} height={50} alt="logo" />
             <p
               className="text-center md:text-[14px]"
@@ -82,8 +82,11 @@ function Hero() {
             >
               #1 matrimony <br /> website and mobile <br /> app
             </p>
+
+            */}
+
             <p
-              className="text-[6px] md:text-[10px] mt-1"
+              className="text-[18px]  mt-1"
               style={{ fontFamily: 'Proxima-Nova-Thin, sans-serif' }}
             >
               All photos are used for illustrative purposes only.

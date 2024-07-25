@@ -38,7 +38,7 @@ const Stories = () => {
       />
       <div className="md:space-y-10 space-y-5">
         <div className="flex items-center justify-between gap-5">
-          <h1 className="text-[64px] " style={{ fontFamily: 'Proxima-Nova-regular',fontWeight:700, lineHeight: '89.5px' }}>Happy Stories</h1>
+          <h1 className="text-[64px] " style={{ fontFamily: 'Proxima-Nova-bold',fontWeight:700, lineHeight: '89.5px' }}>Happy Stories</h1>
           <div className="flex items-center gap-4 z-10">
             <IoArrowBack className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={prevSlide} />
             <IoArrowForward className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={nextSlide} />

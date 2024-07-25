@@ -17,7 +17,7 @@ const Feature = () => {
         <div className=' flex flex-col md:flex-row justify-between text-white md:p-20 p-8  '>
       <div className='space-y-6 '>
         
-          <h1 className='text-[50px]  leading-[50.6px] ' style={{fontFamily:'Proxima-Nova-bold,',fontWeight:'700'}}>Connect with matches <br /> the way you like
+          <h1 className='text-[64px]  leading-[83.2px] ' style={{fontFamily:'Proxima-Nova-bold,',fontWeight:'700'}}>Connect with matches <br /> the way you like
           </h1>
           <p className=' text-[28px] sm:leading-[42px]'style={{fontFamily:'Proxima-Nova-Regular,' , fontWeight:'400',lineHeight:'42px'}}>Cras at pellentesque eros. Nullam vitae <br />sapien et felis eleifend luctus. Nam ac dui</p>
           <div className="">

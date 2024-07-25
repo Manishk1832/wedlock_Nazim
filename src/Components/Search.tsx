@@ -114,9 +114,8 @@ const Search = () => {
         ))}
          
         </div>
-        <div className="underline  flex justify-end text-[28px] text-[#009BDA] relative " style={{fontFamily:'Proxima-Nova-SemiBold, sans-serif',lineHeight:'42px'}}>
+        <div className="  flex justify-end text-[28px] text-[#009BDA] relative " style={{fontFamily:'Proxima-Nova-Bold, sans-serif',lineHeight:'42px'}}>
           <span>More Matrimonial</span>
-          <span>{">"}</span>
         </div>
       </div>
       </div>
