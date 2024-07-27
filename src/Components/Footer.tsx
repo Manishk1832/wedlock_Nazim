@@ -96,7 +96,7 @@ const Footer = () => {
             dating website.
           </p>
         </div>
-        <h1 className="mt-2 sm:text-[16px]   py-5  " style={{letterSpacing: '3%' , lineHeight:'22px', fontFamily: 'Proxima-Nova-Regular, sans-serif'}}  >© 2024 Wedlock Australia. All rights reserved.</h1>
+        <h1 className=" sm:text-[16px]      " style={{letterSpacing: '3%' , lineHeight:'22px', fontFamily: 'Proxima-Nova-Regular, sans-serif'}}  >© 2024 Wedlock Australia. All rights reserved.</h1>
        
       </div>
     </div>

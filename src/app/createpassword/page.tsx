@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CreatePassword = () => {
   return (
-    <div className="min-w-screen min-h-screen flex flex-col items-center justify-top  bg-[#007EAF] ">
+    <div className="min-w-screen h-screen flex flex-col items-center justify-top   bg-[#007EAF] ">
          <div className="flex items-center justify-center mb-2 md:mb-10 ">
         <Image src="/logowhite.png" alt="" width={268} height={90} />
       </div>
@@ -29,8 +29,8 @@ const CreatePassword = () => {
             <Input label="Re-enter password" placeholder='Re-enter password' />
             </form>
 
-            <div className="flex items-center justify-center mt-8"></div>
-              <button className="bg-white text-[#007EAF] w-full h-10 rounded-md mt-10">
+            <div className="flex items-center justify-center mt-2"></div>
+              <button className="bg-white text-[#007EAF] w-full h-10 rounded-md mt-4">
                 Confirm
               </button>
               </div>

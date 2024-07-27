@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
 
 
             <div className='flex gap-5 items-start  justify-center'>
-              <button className='hidden md:flex items-center justify-center md:gap-3 text-[24px] text-white md:rounded-full rounded-3xl border-white font-bold border w-[170px] h-[68px] md:h-10  px-3' onClick={openLogin}>
+              <button className='hidden md:flex items-center justify-center md:gap-3 text-[24px] text-white md:rounded-full rounded-3xl border-white font-bold border w-[170px] h-[69px]   px-3' onClick={openLogin}>
                 Login
                 <RiArrowDropDownLine className="text-5xl" />
               </button>

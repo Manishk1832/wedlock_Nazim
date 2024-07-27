@@ -44,10 +44,10 @@ type FAQItemProps = {
 };
 
 const FAQItem: React.FC<FAQItemProps> = ({ faq, isOpen, onClick }) => (
-  <div >
+  <div  className="">
     <button
-      className={`w-[70rem]  h-20 py-4 px-6 flex justify-between  items-center  ${
-        isOpen ? "bg-[#007EAF] rounded-t-2xl" : "bg-[#F9FAFB] rounded-2xl"
+      className={`w-[70rem]  h-20 py-4  px-6 flex justify-between  items-center  ${
+        isOpen ? "bg-[#007EAF] rounded-t-2xl " : "bg-[#F9FAFB] rounded-2xl "
       }`}
       onClick={onClick}
     >
@@ -55,7 +55,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ faq, isOpen, onClick }) => (
       <span>{isOpen ? "-" : "+"}</span>
     </button>
     {isOpen && (
-      <div className={`bg-[#F0F5FF] rounded-b-2xl  text-black py-4 px-6 `}>
+      <div className={`bg-[#F0F5FF] rounded-b-2xl  text-black py-4 px-6  `}>
         {faq.answer}
       </div>
     )}
@@ -70,9 +70,9 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="bg-white min-h-screen flex flex-col items-center justify-center p-8">
-      <div className="">
-        <div className="rounded-2xl space-y-5">
+    <div className="bg-white min-h-screen flex  items-center justify-center w-[40%] m-auto">
+      <div className=" border-red-800  ">
+        <div className="rounded-2xl space-y-5 ">
           {faqs.map((faq, index) => (
             <FAQItem
               key={index}

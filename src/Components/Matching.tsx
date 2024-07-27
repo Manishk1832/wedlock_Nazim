@@ -75,7 +75,7 @@ const Matching = () => {
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-center px-4 text-white bg-[#3C2C4C] rounded-full md:w-60 md:h-16 h-10 ">
-              <button className=" text-false">Check your Eligibility </button>
+              <button className=" font-bold">Check your Eligibility </button>
 
             </div>
             <div className="text-white text-[0.7rem] md:text-lg cursor-pointer  ">Read more</div>

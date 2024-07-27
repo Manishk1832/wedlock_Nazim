@@ -50,11 +50,11 @@ const page = () => {
           regarding any <br /> information we may collect from you across our website.
         </p>
       </div>
-      <div className="p-16 flex gap-5">
-        <div className="">
+      <div className="p-16 flex gap-5 ">
+        <div className="pl-[80px]">
           <LegalNav />
         </div>
-        <div className=" space-y-5">  
+        <div className=" space-y-5 px-[70px]">  
             <h1 className="font-bold text-2xl">Information Legal</h1>
             
            {

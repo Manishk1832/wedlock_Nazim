@@ -37,7 +37,7 @@ type FAQItemProps = {
 };
 
 const FAQItem: React.FC<FAQItemProps> = ({ faq, isOpen, onClick }) => (
-  <div className="space-y-5">
+  <div className="space-y-5 ">
     <button
       className="w-full text-left py-4 px-6 flex justify-between items-center border border-white rounded-2xl"
       onClick={onClick}
@@ -57,7 +57,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#05162f] min-h-screen flex flex-col items-center justify-center p-8">
+    <div className="bg-[#05162f] min-h-screen flex flex-col items-center justify-center p-8 px-[15rem]">
       <div className="w-full max-w-2xl space-y-12">
         <h2 className="text-5xl text-center text-white mb-4">Frequently asked questions</h2>
         <p className="text-gray-400 mb-8">

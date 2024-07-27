@@ -4,10 +4,10 @@ import { CiSearch, CiHeart } from "react-icons/ci";
 
 const page = () => {
   return (
-    <div className="pt-[83.5px] font-lato ">
+    <div className="pt-[10%] font-lato z-10">
       <div className="flex flex-col items-center justify-center py-16 gap-9 bg-[#E6F2F7] px-16">
-        <span className="text-blue-600">FAQs</span>
-        <h1 className="text-5xl font-semibold">Frequently asked questions</h1>
+        <span className="text-blue-600 ">FAQs</span>
+        <h1 className="text-5xl font-semibold ">Frequently asked questions</h1>
         <h4 className="text-[#475467]">Have questions? We’re here to help.</h4>
         <div className="flex items-center border-2 border-[#D0D5DD] rounded h-10 w-60 bg-white">
           <CiSearch className="text-3xl" />
@@ -18,11 +18,12 @@ const page = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 p-20 gap-8 bg-[#F5F4F4]">
-        <div className="flex flex-col items-center justify-center gap-8">
+      <div className="grid grid-cols-3 p-20 gap-8 bg-[#F5F4F4] px-[10rem]">
+        <div className="flex flex-col items-center justify-center gap-8 ">
           <div className="rounded-full bg-[#F4EBFF] w-10 h-10 flex items-center justify-center">
             <CiHeart className="text-[#007EAF] text-2xl"/>
           </div>
+
           <div className="flex flex-col items-center justify-center gap-3">
           <h1 className="text-xl font-semibold">Is there a free trial available?</h1>
           <p className="text-[#475467] text-center">
@@ -93,7 +94,7 @@ const page = () => {
         </div>
         
       </div>
-      <FAQ/> 
+      <FAQ /> 
       <div className="py-20 text-center bg-[#F5F4F4] space-y-8">
         <p className="">Still have questions?</p>
         <p className='text-[#475467]'>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>

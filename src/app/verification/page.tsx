@@ -59,7 +59,7 @@ const Verification = () => {
               <p>Did you not receive code? </p>
               <button> Click to resend.</button>
             </div>
-            <button className="bg-white text-[#007EAF] w-full h-12 rounded-xl">
+            <button className="bg-white text-[#007EAF] w-full h-12 rounded-xl mt-6">
               Confirm
             </button>
           </form>

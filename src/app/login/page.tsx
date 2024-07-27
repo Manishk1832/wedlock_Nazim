@@ -5,17 +5,17 @@ import Image from "next/image";
 
 const Login = () => {
   return (
-    <div className="min-w-screen min-h-screen flex flex-col items-center justify-top  bg-[#007EAF] ">
-      <div className="flex items-center justify-center mb-2 md:mb-10 ">
+    <div className="min-w-screen h-screen flex flex-col items-center justify-top  bg-[#007EAF] ">
+      <div className="flex items-center justify-center  ">
         <Image src="/logowhite.png" alt="" width={268} height={90} />
       </div>
-      <div className="flex flex-col items-center justify-center mt-4 ">
+      <div className="flex flex-col items-center justify-center  ">
         <div className="bg-white flex items-center justify-center rounded-md w-12 h-12">
           <Image src="/login.png" alt="login" width={20} height={20} />
         </div>
       </div>
 
-       <div className="flex flex-col items-center justify-center text-white mt-4">
+       <div className="flex flex-col items-center justify-center text-white mt-1">
           <h1 className="text-2xl md:text-4xl font-bold">Log in to your account</h1>
           <p className="mt-4 md:text-lg text-center"> Welcome back! Please enter your details. </p>
         </div>

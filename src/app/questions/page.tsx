@@ -226,7 +226,7 @@ const MultiStepForm: React.FC = () => {
           </div>
           {question.options1 && (
             <>
-              <h2 className="mt-4  text-center font-bold text-2xl ">
+              <h2 className="mt-4  text-center font-bold text-[40px] ">
                 {question.text2}
               </h2>
               <div
@@ -312,7 +312,7 @@ const MultiStepForm: React.FC = () => {
   };
 
   return (
-    <div className="min-w-screen min-h-screen flex flex-col items-center justify-top  bg-[#007EAF] text-white ">
+    <div className="min-w-screen min-h-screen h-[100vh] flex flex-col items-center justify-top  bg-[#007EAF] text-white ">
         <Image
             src="/logowhite.png"
             width={400}
@@ -321,13 +321,13 @@ const MultiStepForm: React.FC = () => {
             className="w-72 h-24 mx-auto  mb-2 "
           />
           
-        <div className=" xl:w-[50vw] w-full mt-10 text-center pl-4 pr-4">
-          <h2 className="text-2xl font-bold">
+        <div className=" xl:w-[50vw] w-full mt-10 text-center pl-4 pr-4 ">
+          <h2 className="text-[25px] font-bold">
             Question {currentQuestion + 1}/{questions.length}
           </h2>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2 mb-4">
             <div
-              className="bg-green-500 h-2.5 rounded-full"
+              className="bg-green-500 h-2.5 rounded-full "
               style={{
                 width: `${((currentQuestion + 1) / questions.length) * 100}%`,
               }}
@@ -345,11 +345,11 @@ const MultiStepForm: React.FC = () => {
     
         <form className="flex  flex-col items-center justify-center gap-2   space-y-4" onSubmit={handleSubmit}>
           {renderOptions(questions[currentQuestion])}
-          <div className="flex gap-4  justify-between  xl:mt-6 relative xl:left-[40%] ">
+          <div className="flex gap-4  justify-between fixed  left-[78%] bottom-6  ">
             {questions[currentQuestion].skip && (
               <button
                 type="button"
-                className="px-4 xl:mt-20 py-2 text-white bg-[#007EAF] border rounded-md h-[48px]"
+                className="px-4  py-2 text-white bg-[#007EAF] border rounded-md h-[48px]"
                 onClick={handleSkip}
               >
                 Skip the question
@@ -357,7 +357,7 @@ const MultiStepForm: React.FC = () => {
             )}
             <button
               type="submit"
-              className="px-4 mb-4 xl:mb-0 xl:mt-20 py-2 text-[#007EAF] bg-white rounded-md flex items-center gap-2 h-[48px]"
+              className="px-4  py-2 text-[#007EAF] bg-white rounded-md flex items-center gap-2 h-[48px]"
               >
               Continue <FaArrowRightLong />
 
