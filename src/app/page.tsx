@@ -10,9 +10,9 @@ import Feature from "@/Components/Feature";
 import Ai from "@/Components/Ai";
 import Navbar from "@/Components/Navbar";
 import Search from "@/Components/Search";
-
 import Details from "@/Components/Details";
 import Pre from "@/Components/Pre";
+
 
 export default function Home() {
   return (
@@ -29,13 +29,13 @@ export default function Home() {
       <Ai />
       <Search />
       <Details />
-    
+
       {/* <Registration/> */}
       {/* <Verification/> */}
       {/* <CreatePassword/>  */}
       {/* <Login/> */}
       {/* <ForgotPassword/> */}
-      {/* <ChangePassword/> */}
+      {/*<ChangePassword/> */} 
       {/* <MultiStepForm /> */}
     </div>
   );

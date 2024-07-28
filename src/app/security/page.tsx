@@ -45,16 +45,16 @@ const page = () => {
         </p>
       </div>
       <div className="p-16 flex gap-5">
-        <div className="">
+        <div className="pl-[80px]">
           <LegalNav />
         </div>
-        <div className=" space-y-5">  
-            <h1 className="font-bold text-2xl">Information Legal</h1>
+        <div className=" space-y-5 px-[70px]">  
+            <h1 className="font-bold text-2xl ">Information Legal</h1>
             
            {
             legal.map((legal) => (
               
-                <div key={legal.title} className="flex">
+                <div key={legal.title} className="flex ">
                  
                     <h1 className="font-bold ">{legal.title} <span className="font-normal"> {legal.content}</span></h1>
                    

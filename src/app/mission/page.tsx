@@ -4,17 +4,17 @@ import React from "react";
 const Mission = () => {
   return (
     <div className="pt-[83.5px] ">
-      <div className="pt-16 space-y-16 px-16">
-        <div className="lg:px-8">
+      <div className="pt-16 space-y-16">
+        <div className=" flex justify-between items-center w-[85%] m-auto">
           <h1 className="text-[#101828E5] text-7xl ">
             At the heart of Wedlock.
           </h1>
-          <p className="text-[#42526B] text-lg">
+          <p className="text-[#42526B] text-lg    w-[50%] ">
             Cras imperdiet est eget nulla fringilla, sit amet volutpat sem
             tristique. Pellentesque quis augue ac mauris posuere vehicula.
           </p>
         </div>
-        <div className="lg:px-10">
+        <div className="w-[85%] m-auto">
           <Image
             src="/mission.jpg"
             width={1200}
@@ -36,7 +36,7 @@ const Mission = () => {
           </div>
         </div>
       </div> */}
-       <div className="bg-blue-700 text-white p-16">
+       <div className="bg-[#007EAF] text-white p-16">
       <div className="container mx-auto text-center lg:px-10">
         <h1 className="text-4xl font-bold mb-6">Relationships are at the core of everything we do.</h1>
         <p className="text-lg mb-12">
@@ -45,20 +45,20 @@ const Mission = () => {
           We believe these three core values are what it takes to build those great relationships.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white text-blue-700 rounded-lg p-6 shadow-lg">
-            <h2 className="text-2xl font-semibold mb-4">Authenticity</h2>
-            <p className="mb-4">We share — never hide — our words, actions, and intentions.</p>
-            <a href="#" className="text-blue-500 hover:text-blue-700">Learn More →</a>
+          <div className="bg-white  rounded-lg p-6 shadow-lg flex justify-center items-center flex-col">
+            <h2 className="text-2xl font-semibold mb-4 text-[#007EAF]">Authenticity</h2>
+            <p className="mb-4 text-[#42526B]">We share — never hide — our words, actions, and intentions.</p>
+            <a href="#" className="text-[#007EAF] ">Learn More →</a>
           </div>
-          <div className="bg-white text-blue-700 rounded-lg p-6 shadow-lg">
-            <h2 className="text-2xl font-semibold mb-4">Courage</h2>
-            <p className="mb-4">Breakthroughs require a willingness to take risks and embrace lofty goals and tough challenges.</p>
-            <a href="#" className="text-blue-500 hover:text-blue-700">Learn More →</a>
+          <div className="bg-white rounded-lg p-6 shadow-lg h-[336px] flex justify-center items-center flex-col">
+            <h2 className="text-2xl font-semibold mb-4 text-[#007EAF]">Courage</h2>
+            <p className="mb-4 text-[#42526B]">Breakthroughs require a willingness to take risks and embrace lofty goals and tough challenges.</p>
+            <a href="#" className="text-[#007EAF]">Learn More →</a>
           </div>
-          <div className="bg-white text-blue-700 rounded-lg p-6 shadow-lg">
-            <h2 className="text-2xl font-semibold mb-4">Empathy</h2>
-            <p className="mb-4">We’re all humans first. So we deeply consider the perspectives of others, listen openly, and speak with care.</p>
-            <a href="#" className="text-blue-500 hover:text-blue-700">Learn More →</a>
+          <div className="bg-white text-[#007EAF] rounded-lg p-6 shadow-lg flex justify-center items-center flex-col">
+            <h2 className="text-2xl font-semibold mb-4 text-[#007EAF]">Empathy</h2>
+            <p className="mb-4 text-[#42526B]">We’re all humans first. So we deeply consider the perspectives of others, listen openly, and speak with care.</p>
+            <a href="#" className="text-[#007EAF]">Learn More →</a>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Mission = () => {
 
       {/* value in action  */}
 
-      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato p-16 lg:px-28">
+      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato py-16 px-28">
       <div className="container mx-auto ">
         <h1 className="text-4xl font-bold mb-4">We put our values in action.</h1>
         <p className="text-lg mb-12">
@@ -99,7 +99,7 @@ const Mission = () => {
 
       {/* wedlock difference */}
 
-      <div className="bg-white text-[#061C3D] py-12 ">
+      <div className="bg-white text-[#061C3D] py-12 px-[50px]">
       <div className="container mx-auto ">
         <h2 className="text-3xl font-bold mb-4 lg:px-[5%]">The Wedlock Difference</h2>
         <p className="text-lg mb-12 text-gray-600 lg:px-[5%]">Our principles guide us to put our values first with every decision.</p>

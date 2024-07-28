@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
   const closeLogin = () => setLoginOpen(false);
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
-  const isBlueBgRoute = pathname === "/mission" || pathname === "/advice" || pathname === "/help" || pathname === "/legal" || pathname === "";
-  const hiddenRoutes = ["/verification", "/register", "/questions", "/login", "/forgotpassword", "/createpassword"];
+  const isBlueBgRoute = pathname === "/mission" || pathname === "/advice" || pathname === "/help" || pathname === "/legal" || pathname === "/security";
+  const hiddenRoutes = ["/verification", "/register", "/questions", "/login", "/forgotpassword", "/createpassword","/ChangePassword"];
   const isHiddenRoute = hiddenRoutes.includes(pathname);
 
   if (isHiddenRoute) {
@@ -27,11 +27,11 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className={`absolute  navbar z-10 w-full h-auto 3xl:px-32 7xl:px-32 8xl:px-32 xl:px-10 text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ''}`}>
+      <div className={`absolute  navbar z-10 w-full h-auto 3xl:px-32 7xl:px-32 8xl:px-32 xl:px-10 text-white ${isBlueBgRoute ? 'bg-[#007eb0]' : ' '}`}>
 
 
 
-        <div className={`${isBlueBgRoute ? 'hidden' : 'h-2 xl:h-6 w-full z-10 bg-black xl:blur-[18px] blur-[40px]'}`}></div>
+        <div className={`${isBlueBgRoute ? '' : ' bg-[#007eb0] '}`}></div>
 
         <div className="flex justify-around items-center  container w-full  m-auto">
 
