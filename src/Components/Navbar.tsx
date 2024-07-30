@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   const closeLogin = () => setLoginOpen(false);
   const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
-  const isBlueBgRoute = pathname === "/mission" || pathname === "/advice" || pathname === "/help" || pathname === "/legal" || pathname === "/security";
+  const isBlueBgRoute = pathname === "/mission" || pathname === "/advice" || pathname === "/help" || pathname === "/legal" || pathname === "/security" || pathname == "/faqs";
   const hiddenRoutes = ["/verification", "/register", "/questions", "/login", "/forgotpassword", "/createpassword","/ChangePassword"];
   const isHiddenRoute = hiddenRoutes.includes(pathname);
 

@@ -57,13 +57,13 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#05162f] min-h-screen flex flex-col items-center justify-center p-8 px-[15rem]">
+    <div className="bg-[#05162f] min-h-screen flex flex-col items-center justify-center px-[16px]  11xl-[100%]">
       <div className="w-full max-w-2xl space-y-12">
         <h2 className="text-5xl text-center text-white mb-4">Frequently asked questions</h2>
         <p className="text-gray-400 mb-8">
         Aenean quis est erat. Pellentesque pretium convallis ligula, vitae euismod nisl vehicula non. In felis leo, faucibus vel sagittis pharetra, varius ullamcorper quam. Suspendisse potenti.
         </p>
-        <div className="rounded-2xl space-y-5">
+        <div className="rounded-2xl space-y-5 ">
           {faqs.map((faq, index) => (
             <FAQItem
               key={index}

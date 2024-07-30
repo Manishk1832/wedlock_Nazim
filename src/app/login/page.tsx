@@ -22,7 +22,7 @@ const Login = () => {
 
         <div  className="w-full max-w-md px-2   py-2 mt-4">
           <form action=" ">
-            <div className="">
+            <div className="rounder-[8px]">
               <Input
               placeholder="Enter your email" label="Email"  
               />

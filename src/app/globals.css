@@ -52,6 +52,38 @@ background-position:center;
   }
 }
 
+@media (min-width:0px) and (max-width:480px)
+{
+  .card_container
+  {
+   color:blue;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+
+  }
+
+.faqs_card
+{
+  width:24.5rem !important;
+}
+
+
+.question_faqs
+{
+  width:24.5rem !important;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+
+
+
+
+}
 
 
 

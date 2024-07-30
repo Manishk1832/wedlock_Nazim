@@ -20,6 +20,7 @@ const config: Config = {
       '7xl':'1792px',
       '8xl':'1536px',
       "10xl":'1280px',
+      "11xl":"480px",
       },
      
     },

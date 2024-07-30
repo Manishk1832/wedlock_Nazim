@@ -24,7 +24,7 @@ const CreatePassword = () => {
         </div>
         </div>
         <div  className="w-full max-w-md px-2  py-4 mt-4">
-            <form action="">
+            <form action=" rounder-[8px]">
             <Input label="Enter new password" placeholder='password' />
             <Input label="Re-enter password" placeholder='Re-enter password' />
             </form>

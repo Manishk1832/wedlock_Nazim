@@ -31,7 +31,7 @@ const ForgotPassword = () => {
       </div>
 
       <div className="w-full max-w-md px-2  py-4">
-        <form action="" className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+        <form action="" className="space-y-6 rounded-[8px]" onSubmit={(e) => e.preventDefault()}>
           <Input
             label="Email"
             value={username}

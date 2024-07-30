@@ -20,9 +20,9 @@ function page() {
       </div>
      <FAQ/>
       <div className="py-20 text-center bg-white space-y-8">
-        <p className="">Still have questions?</p>
+        <p className="font-bold">Still have questions?</p>
         <p className='text-[#475467]'>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
-        <button className="bg-light-blue text-white py-2 px-4 rounded">Get in touch</button>
+        <button className="bg-[#007EAF] text-white py-2 px-4 rounded">Get in touch</button>
       </div>
       </div>
   )

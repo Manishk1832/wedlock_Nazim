@@ -318,10 +318,9 @@ const MultiStepForm: React.FC = () => {
         {currentQuestion > 0 && (
           <button
             onClick={handleBack}
-            className="flex items-center gap-2 text-white"
+            className="flex items-center gap-2 text-[24px] text-white fixed top-40 left-32"
           >
-            <FaArrowLeft />
-            Back
+            <FaArrowLeft />Back
           </button>
         )}
       </div>
@@ -334,11 +333,11 @@ const MultiStepForm: React.FC = () => {
         className="w-72 h-24 mx-auto mb-2"
       />
 
-      <div className="xl:w-[50vw] w-full mt-10 text-center pl-4 pr-4">
+      <div className="xl:w-[50vw] w-full mt-10 text-center pl-4 pr-4 ">
         <h2 className="text-[25px] font-bold">
           Question {currentQuestion + 1}/{questions.length}
         </h2>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2 mb-4">
+        <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-6 mb-4 ">
           <div
             className="bg-green-500 h-2.5 rounded-full "
             style={{
@@ -346,7 +345,7 @@ const MultiStepForm: React.FC = () => {
             }}
           ></div>
         </div>
-        <p className="my-4 text-2xl md:text-4xl font-semibold">
+        <p className="my-4 text-2xl md:text-4xl font-semibold ">
           {questions[currentQuestion].text ||
             questions[currentQuestion].text2}
         </p>
@@ -355,27 +354,32 @@ const MultiStepForm: React.FC = () => {
         </p>
       </div>
 
-      <div className="w-full  space-y-6 ">
+      <div className="w-full  space-y-10 ">
         <form
-          className="flex flex-col items-center justify-center gap-2   space-y-4"
+          className="flex flex-col items-center justify-center gap-4   space-y-4"
           onSubmit={handleSubmit}
         >
           {renderOptions(questions[currentQuestion])}
           <div className="flex gap-4  justify-between fixed  left-[78%] bottom-6  ">
             {questions[currentQuestion].skip && (
+              
+              
               <button
                 type="button"
-                className="px-4  py-2 text-white bg-[#007EAF] border rounded-md h-[48px]"
+                className="px-4  py-2 hidden text-white bg-[#007EAF] border rounded-md h-[48px]"
                 onClick={handleSkip}
               >
                 Skip the question
               </button>
+
+
+
             )}
             <button
               type="submit"
-              className="px-4  py-2 text-[#007EAF] bg-white rounded-md flex items-center gap-2 h-[48px]"
+              className="  py-2 text-[#007EAF] bg-white rounded-md w-[187px] text-[20px] items-center gap-2 h-[48px]"
             >
-              Continue <FaArrowRightLong />
+              Continue {/*<FaArrowRightLong />*/}
             </button>
           </div>
         </form>
