@@ -5,23 +5,23 @@ const Mission = () => {
   return (
     <div className="pt-[83.5px] ">
       <div className="pt-16 space-y-16">
-        <div className=" flex justify-between items-center w-[85%] m-auto">
+        <div className=" flex justify-between items-center w-[79%] m-auto">
           <h1 className="text-[#101828E5] text-7xl ">
             At the heart of Wedlock.
           </h1>
-          <p className="text-[#42526B] text-lg    w-[50%] ">
+          <p className="text-[#42526B] text-lg    w-[56%] ">
             Cras imperdiet est eget nulla fringilla, sit amet volutpat sem
             tristique. Pellentesque quis augue ac mauris posuere vehicula.
           </p>
         </div>
-        <div className="w-[85%] m-auto">
+        <div className="ml-[11%] m-auto w-[77%]">
           <Image
             src="/mission.jpg"
             width={1200}
             height={100}
             alt="mission
             "
-            className="lg:h-[40rem]"
+            className="lg:h-[40rem] w-[100%]"
           />
         </div>
       </div>
@@ -68,7 +68,7 @@ const Mission = () => {
 
       {/* value in action  */}
 
-      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato py-16 px-28">
+      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato py-16 px-32">
       <div className="container mx-auto ">
         <h1 className="text-4xl font-bold mb-4">We put our values in action.</h1>
         <p className="text-lg mb-12">
@@ -99,7 +99,7 @@ const Mission = () => {
 
       {/* wedlock difference */}
 
-      <div className="bg-white text-[#061C3D] py-12 px-[50px]">
+      <div className="bg-white text-[#061C3D] py-12 ">
       <div className="container mx-auto ">
         <h2 className="text-3xl font-bold mb-4 lg:px-[5%]">The Wedlock Difference</h2>
         <p className="text-lg mb-12 text-gray-600 lg:px-[5%]">Our principles guide us to put our values first with every decision.</p>

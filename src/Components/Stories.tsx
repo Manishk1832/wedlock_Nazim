@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 import '../app/font.css';
+import Image from "next/image";
+
 
 
 const Stories = () => {
@@ -31,8 +33,8 @@ const Stories = () => {
       
     
     <div className="container  m-auto md:space-y-16 md:px-20 md:py-5 px-4 space-y-5   overflow-hidden bg-[#007EAF] text-white relative">
-       <img
-        src="/curvewhite.svg"
+       <Image
+        src="/curvewhite.svg" width={40} height={40}
         alt="arw"
         className="absolute  w-[42rem] rotate-12 -right-10 -top-40 z-10"
       />
@@ -51,7 +53,7 @@ const Stories = () => {
       <div className="flex items-center justify-between flex-col sm:flex-row gap-7 ">
         {stories.map((story, index) => (
           <div key={index} className={` relative ${index == currentSlide ? 'block' : '' }`}>
-            <img src={story.src} alt={`Story ${story.index}`} className="rounded-3xl w-[50rem]  h-[26rem] object-cover z-2 3xl:h-[30%] 5xl:h-[35%]" />
+            <Image src={story.src} alt={`Story ${story.index}`} className="rounded-3xl w-[50rem]  h-[26rem] object-cover z-2 3xl:h-[30%] 5xl:h-[35%]"  width={40} height={40}/>
           </div>
         ))}
       </div>

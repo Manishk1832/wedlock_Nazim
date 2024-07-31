@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CreatePassword = () => {
   return (
-    <div className="min-w-screen h-screen flex flex-col items-center justify-top   bg-[#007EAF] ">
+    <div className="min-w-screen h-screen flex flex-col items-center justify-center   bg-[#007EAF] ">
          <div className="flex items-center justify-center mb-2 md:mb-10 ">
         <Image src="/logowhite.png" alt="" width={268} height={90} />
       </div>

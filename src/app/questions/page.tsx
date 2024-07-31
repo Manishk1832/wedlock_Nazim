@@ -318,7 +318,7 @@ const MultiStepForm: React.FC = () => {
         {currentQuestion > 0 && (
           <button
             onClick={handleBack}
-            className="flex items-center gap-2 text-[24px] text-white fixed top-40 left-32"
+            className="flex items-center gap-2 text-[24px] text-white fixed top-10 left-32"
           >
             <FaArrowLeft />Back
           </button>
@@ -330,7 +330,7 @@ const MultiStepForm: React.FC = () => {
         width={400}
         height={500}
         alt="Wedlock Logo"
-        className="w-72 h-24 mx-auto mb-2"
+        className="w-72 h-24 mx-auto mb-2 fixed top-10"
       />
 
       <div className="xl:w-[50vw] w-full mt-10 text-center pl-4 pr-4 ">
@@ -345,11 +345,11 @@ const MultiStepForm: React.FC = () => {
             }}
           ></div>
         </div>
-        <p className="my-4 text-2xl md:text-4xl font-semibold ">
+        <p className="my-8 text-2xl md:text-4xl font-semibold ">
           {questions[currentQuestion].text ||
             questions[currentQuestion].text2}
         </p>
-        <p className="text-[#FFFFFF90]">
+        <p className="text-[#FFFFFF90] my-8">
           {questions[currentQuestion].summary}
         </p>
       </div>

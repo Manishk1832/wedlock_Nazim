@@ -7,8 +7,8 @@ const Ai = () => {
    <div className="w-100 h-auto 8xl:px-32 bg-[#009BDA] 3xl:px-52 xl:px-10 7xl:px-36" >
 
 <div className="relative container m-auto">
-      <img
-        src="/curvewhite.svg"
+      <Image
+        src="/curvewhite.svg" width={400} height={310}
         alt="arw"
         className="absolute  w-[40rem] rotate-12 -right-10 -top-32"
       />

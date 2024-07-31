@@ -16,7 +16,7 @@ function page() {
 
           <div className="rounded border-2  border-[#E6E8EC] hover:border-none hover:rounded-3xl hover:shadow-2xl px-4 space-y-[8px]">
             <Image src="/ProjectPh.svg" width={650} height={400}  alt=""  className="xl:w-[100%]"/>
-            <h1 className="text-[#061C3D] text-[24px] leading-[32px] font-normal" tyle={{fontFamily: 'Proxima-Nova-Regular'}}>Horoscope information </h1>
+            <h1 className="text-[#061C3D] text-[24px] leading-[32px] font-normal" style={{fontFamily: 'Proxima-Nova-Regular'}}>Horoscope information </h1>
             <div className="text-[#007EAF] underline pb-3">
               <h1>Read More →</h1>
             </div>
@@ -60,7 +60,7 @@ function page() {
       </div>
       {/* attration */}
 
-      <div className="bg-[#F5F6F7] px-4 sm:px-15  lg:px-20 py-[124px]">
+      <div className="bg-[#F5F6F7]   lg:px-20 py-[124px]">
         <div className="text-center space-y-10">
           <h1 className="text-[56px] font-bold leading-[60px] tracking-[-2%]" style={{fontFamily: 'Proxima-Nova-regular'}}>Attraction</h1>
           <p className="text-[18px] leading-[26px] text-[#42526B] font-normal" style={{fontFamily: 'Proxima-Nova-regular'}}>
@@ -68,7 +68,7 @@ function page() {
             tristique. Pellentesque <br />quis augue ac mauris posuere vehicula.
           </p>
         </div>
-        <div className="grid grid-cols-3   px-10  ">
+        <div className="grid grid-cols-3   px-[7rem]  ">
           <div className="rounded  px-2 space-y-8 w-[380.6px] h-[596px] ">
             <Image src="/ProjectPh.svg" width={650} height={400} alt="" className="w-[380px] h-[464px] "/>
             <h1 className="text-[#061C3D] text-1xl sm:text-2xl">Horoscope information </h1>
@@ -96,7 +96,7 @@ function page() {
       {/* attration end */}
 
       {/* finding */}
-      <div className="py-[80px] px-4 sm:px-20  ">
+      <div className="py-[80px]   px-[2.5rem]">
         <div className="py-16 space-y-8 xl:px-10 2xl:px-40">
           <h1 className="text-[56px] font-bold leading-[60px] tracking-[2%]" style={{fontFamily: 'Proxima-Nova-regular'}}>Finding yourself</h1>
           <p className="text-[#42526B] text-[18px] leading-[26px]" style={{fontFamily: 'Proxima-Nova-regular'}}>
