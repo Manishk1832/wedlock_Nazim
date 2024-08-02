@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <div className="pt-[83.5px] ">
       <div className="pt-16 space-y-16">
-        <div className=" flex justify-between items-center w-[79%] m-auto">
+        <div className=" flex justify-between items-center mission_title w-[85%] m-auto">
           <h1 className="text-[#101828E5] text-7xl ">
             At the heart of Wedlock.
           </h1>
@@ -14,14 +14,14 @@ const Mission = () => {
             tristique. Pellentesque quis augue ac mauris posuere vehicula.
           </p>
         </div>
-        <div className="ml-[11%] m-auto w-[77%]">
+        <div className="m-auto px-[8%] mission_img">
           <Image
             src="/mission.jpg"
             width={1200}
             height={100}
             alt="mission
             "
-            className="lg:h-[40rem] w-[100%]"
+            className="lg:h-[40rem] w-[100%] img"
           />
         </div>
       </div>
@@ -36,15 +36,20 @@ const Mission = () => {
           </div>
         </div>
       </div> */}
-       <div className="bg-[#007EAF] text-white p-16">
-      <div className="container mx-auto text-center lg:px-10">
+       <div className="bg-[#007EAF] text-white p-16 relationship_box">
+      <div className="container mx-auto text-center  px-[55px] relationship ">
+        
+        <div className="div">
         <h1 className="text-4xl font-bold mb-6">Relationships are at the core of everything we do.</h1>
         <p className="text-lg mb-12">
           And not just the romantic kind. We can’t accomplish really hard things alone—so we make great relationships the foundation of our teamwork.
           <br />
           We believe these three core values are what it takes to build those great relationships.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        </div>
+       
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 card_mission">
+         
           <div className="bg-white  rounded-lg p-6 shadow-lg flex justify-center items-center flex-col">
             <h2 className="text-2xl font-semibold mb-4 text-[#007EAF]">Authenticity</h2>
             <p className="mb-4 text-[#42526B]">We share — never hide — our words, actions, and intentions.</p>
@@ -60,7 +65,9 @@ const Mission = () => {
             <p className="mb-4 text-[#42526B]">We’re all humans first. So we deeply consider the perspectives of others, listen openly, and speak with care.</p>
             <a href="#" className="text-[#007EAF]">Learn More →</a>
           </div>
+
         </div>
+
       </div>
     </div>
 
@@ -68,26 +75,26 @@ const Mission = () => {
 
       {/* value in action  */}
 
-      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato py-16 px-32">
-      <div className="container mx-auto ">
+      <div className="bg-[#F5F4F4] text-[#061C3D] font-lato py-16 px-32 value_box">
+      <div className="container mx-auto  relationship">
         <h1 className="text-4xl font-bold mb-4">We put our values in action.</h1>
         <p className="text-lg mb-12">
           Our principles guide us to put our values first with every decision.
         </p>
-        <div className="flex gap-8">
-          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem]">
+        <div className="flex gap-8 relationship_card">
+          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem] r_div">
             <h2 className="text-2xl font-semibold mb-4">Love the Problem</h2>
             <p>Breakthrough innovation happens when we spend time deeply understanding a problem, not jumping to solutions.</p>
           </div>
-          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem]">
+          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem] r_div">
             <h2 className="text-2xl font-semibold mb-4">Keep it Simple</h2>
             <p>We prioritize elegant solutions that align with our biggest goals – both as an organization and within teams. We say {`"no"`} to a lot so we can do the few things that matter most.</p>
           </div>
-          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem]">
+          <div className="bg-white  rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem] r_div">
             <h2 className="text-2xl font-semibold mb-4">Decide with Principles</h2>
             <p>We are highly thoughtful and intentional with every decision at Wedlock. Decisions are driven by principles, not arbitrary personal judgment.</p>
           </div>
-          <div className="bg-white rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem]">
+          <div className="bg-white rounded-lg p-6 shadow-lg lg:w-[23%] lg:h-[20rem] r_div">
             <h2 className="text-2xl font-semibold mb-4">Tend to Trust</h2>
             <p>At Wedlock, we tend to trust each other; we also put in the work to nurture and rebuild trust through transparency and open collaboration. When trust is missing, we speak up.</p>
           </div>
@@ -100,9 +107,16 @@ const Mission = () => {
       {/* wedlock difference */}
 
       <div className="bg-white text-[#061C3D] py-12 ">
-      <div className="container mx-auto ">
-        <h2 className="text-3xl font-bold mb-4 lg:px-[5%]">The Wedlock Difference</h2>
+      <div className="container mx-auto px-[70px] diffrence_box">
+
+<div className="diffrence_title">
+<h2 className="text-3xl font-bold mb-4 lg:px-[5%]">The Wedlock Difference</h2>
         <p className="text-lg mb-12 text-gray-600 lg:px-[5%]">Our principles guide us to put our values first with every decision.</p>
+
+</div>
+        
+
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8  lg:px-12">
           <div className="bg-white  rounded-lg p-6 ">
             <h3 className="text-2xl font-semibold mb-4">Detailed Profiles</h3>

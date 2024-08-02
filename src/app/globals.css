@@ -193,7 +193,7 @@ height:100vh;
 
 }
 
-@media (min-width:0px) and (max-width:480px)
+@media (min-width:0px) and (max-width:572px)
 {
   .card_container
   {
@@ -220,9 +220,209 @@ height:100vh;
 
 }
 
+.mission_title
+{
+  display:flex;
+  flex-direction: column !important;
+  width:95%;
+
+}
+
+.mission_title>p 
+{
+  width:100%;
+  padding-top:2rem;
+  padding-left:0 !important;
+}
+
+.mission_img
+{
+  width:100% !important;
+  padding:0rem !important;
+}
+
+.mission_title>h1 
+{
+  font-size:32px;
+  line-height:48px;
+  font-weight: 700;
+  padding-right:2rem;
+}
+
+.mission_title>p 
+{
+  font-size:18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.img
+{
+  width:100% !important;
+  padding:0 !important;
+  margin:0rem !important;
+}
+
+.relationship
+{
+  width:100% !important;
+  padding-left: 0px !important;
+  padding-right:0px !important;
+ 
+
+  
+}
+
+.div
+{
+  text-align: left;
+}
+
+.card_mission
+{
+  width:100% !important;
+}
+
+.card_mission>div 
+{
+  height:15rem;
+}
+
+.relationship
+{
+  width:100%;
+}
+
+.relationship_card
+{
+  width:flex;
+  flex-direction: column;
+  width:100% !important;
+}
+
+.relationship_box
+{
+  padding:4rem 1rem 4rem 1rem;
+}
+
+.value_box
+{
+  padding:4rem 1rem 4rem 1rem ;
+}
+
+.diffrence_box
+{
+padding:0rem;
+}
+
+.diffrence_title
+{
+  padding:0rem 1rem 0rem 1rem;
+}
+
+.advice_heading>h1 
+{
+  font-size:32px;
+  line-height:48px;
+  font-weight: 700;
+}
+
+.advice_heading>p 
+{
+  font-size:18px;
+  line-height:26px;
+  font-weight:400;
+}
+
+.r_div
+{
+  height:15rem !important;
+}
+
+.at>h1 
+{
+  font-size:32px;
+  line-height:48px;
+  font-weight: 700;
+}
+
+.at>p 
+{
+  font-size:18px;
+  line-height:26px;
+  font-weight:400;
+}
 
 
+.man_cardBox
+{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
 
+.man_card2
+{
+  margin-top:5rem !important;
+}
+
+.attraction_box
+{
+  display:flex;
+  flex-direction:column;
+}
+
+.att_title
+{
+  width:100% !important;
+  padding:0rem;
+  margin:0rem !important;
+}
+
+.att_container
+{
+  padding:5rem 1rem 5rem 1rem !important;
+}
+
+
+.at_card
+{
+  display:flex;
+  flex-direction:column;
+  padding:0rem !important;
+  margin-top:3rem;
+}
+
+
+.att_title>h1 
+{
+  font-size:32px;
+  line-height:48px;
+  font-weight: 700;
+}
+
+.att_title>p 
+{
+  font-size:18px;
+  line-height:26px;
+  font-weight:400;
+}
+
+
+.faq>h1 
+{
+font-size:28px !important;
+line-height:39.5px;
+font-weight: 700;
+
+}
+
+.faq>p 
+{
+  font-size:18px ;
+  line-height:26px;
+  font-weight:400;
+}
 
 }
 
